@@ -289,7 +289,7 @@ html {
 -------------------------------------------------------------- */
 
 .widget {
-	@include border-radius(0 0 15px 15px);
+	@include border-radius(0 0 12px 12px);
 	background: #fff;
 	padding-bottom: 10px;
 	margin-bottom: 30px;
