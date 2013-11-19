@@ -5,7 +5,11 @@
 // Compass plugins
 @import "compass/css3";
 
+
 // Custom Boostrap variables.
+
+// Colors
+$gray: #464646;
 
 // Brand colors
 // -------------------------
@@ -33,46 +37,39 @@ $navbar-height: 50px;
 $navbar-margin-bottom: 0;
 $navbar-border-radius: 0;
 $navbar-padding-horizontal: 0;
-// $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2);
 
 $navbar-default-color: #fff;
 $navbar-default-bg: #3185af;
 $navbar-default-border: transparent;
 
-// // Navbar links
+// Navbar links
 $navbar-default-link-color: $navbar-default-color;
 $navbar-default-link-hover-color: $navbar-default-color;
 $navbar-default-link-hover-bg: #36637a;
 $navbar-default-link-active-color: $navbar-default-color;
 $navbar-default-link-active-bg: $navbar-default-link-hover-bg;
-// $navbar-default-link-disabled-color:       #ccc;
-// $navbar-default-link-disabled-bg:          transparent;
 
-// // Navbar toggle
+// Navbar toggle
 $navbar-default-toggle-hover-bg: $navbar-default-link-hover-bg;
 $navbar-default-toggle-icon-bar-bg: #ddd;
 $navbar-default-toggle-border-color: $navbar-default-toggle-icon-bar-bg;
 
 // Inverted navbar
-//
 // Reset inverted navbar basics
 $navbar-inverse-color: $navbar-default-color;
-$navbar-inverse-bg: #464646;
+$navbar-inverse-bg: $gray;
 $navbar-inverse-border: $navbar-default-border;
 
-// // Inverted navbar links
+// Inverted navbar links
 $navbar-inverse-link-color: $navbar-default-color;
-$navbar-inverse-link-hover-color:           #fff;
+$navbar-inverse-link-hover-color: $navbar-default-color;
 $navbar-inverse-link-hover-bg: #656a6e;
 $navbar-inverse-link-active-color: $navbar-default-color;
 $navbar-inverse-link-active-bg: $navbar-inverse-link-hover-bg;
 $navbar-inverse-link-disabled-color: #aaa;
-// $navbar-inverse-link-disabled-bg:           transparent;
 
-// // Inverted navbar toggle
-// $navbar-inverse-toggle-hover-bg:            #333;
-// $navbar-inverse-toggle-icon-bar-bg:         #fff;
-// $navbar-inverse-toggle-border-color:        #333;
+
+
 
 
 // Boostrap Core variables and mixins
