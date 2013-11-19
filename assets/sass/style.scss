@@ -97,12 +97,43 @@ html {
 
 }
 
+/* =Top Navigation
+-------------------------------------------------------------- */
+
+#top-navigation {
+	.navbar-nav > li > a {
+		font-size: 16px;
+		font-weight: 700;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		text-transform: uppercase;
+	}
+}
+
+#top-navigation-icon {
+	background: url("../images/header-icon.png") no-repeat;
+	height: 36px;
+	margin: 11px 0 0;
+	width: 95px;
+}
+
 /* =Navigation
 -------------------------------------------------------------- */
 
-#main-navigation {
-
+#wp-brasil-map {
+	height: 295px;
 }
+
+/* =Main Navigation
+-------------------------------------------------------------- */
+
+#main-navigation {
+	.navbar-nav > li > a {
+		font-size: 16px;
+	}
+}
+
+
 
 /* =Search Form
 -------------------------------------------------------------- */

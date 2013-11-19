@@ -50,6 +50,7 @@ function cmm_wpbr_setup_features() {
 	 */
 	register_nav_menus(
 		array(
+			'top-menu' => __( 'Top Menu', 'comunidade-wordpress-br' ),
 			'main-menu' => __( 'Main Menu', 'comunidade-wordpress-br' )
 		)
 	);
