@@ -6,7 +6,26 @@
 @import "compass/css3";
 
 // Custom Boostrap variables.
+
+// Brand colors
+// -------------------------
+$brand-primary: #2e6ea4;
+
+// Scaffolding
+// -------------------------
+
+$body-bg: #eaecde;
+$text-color: #686761;
+
+// Typography
+// -------------------------
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Iconography
+// -------------------------
 $icon-font-path: '../fonts/bootstrap/';
+
+
 
 // Boostrap Core variables and mixins
 @import "bootstrap/variables";
