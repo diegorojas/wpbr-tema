@@ -12,7 +12,7 @@ Mais detalhes de como contribuir e enviar Pull Requests em [GitHub Collaborating
 
 [Como colaborar com projetos opensource com GitHub](http://www.youtube.com/watch?v=H3olaBo83As)
 
-## Copyright and License - Copyright e Licença ##
+## Copyright e Licença ##
 
 Copyright 2013 - Comunidade WordPress-BR.  
 Este tema esta licenciado com [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt) ou superior.  
