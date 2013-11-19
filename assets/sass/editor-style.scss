@@ -1,0 +1,40 @@
+/*!
+Theme Name: Comunidade WordPress-BR
+Description: Used to style the TinyMCE editor.
+*/
+
+// Comunidade WordPress-BR variables configuration.
+@import "config";
+
+/* =Bootstrap Styles
+-------------------------------------------------------------- */
+
+// Reset
+@import "bootstrap/normalize";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+
+// Components
+@import "bootstrap/thumbnails";
+
+// Comunidade WordPress-BR WordPress Core
+@import "wordpress/alignment";
+@import "wordpress/galleries";
+@import "wordpress/images";
+
+/* =Custom Editor Styles
+-------------------------------------------------------------- */
+
+body {
+	padding: 10px;
+}
+
+table {
+	@extend .table;
+}
