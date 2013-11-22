@@ -6,6 +6,9 @@ Description: Used to style the TinyMCE editor.
 // Comunidade WordPress-BR variables configuration.
 @import "config";
 
+// Editor variables.
+$body-bg: #fff;
+
 /* =Bootstrap Styles
 -------------------------------------------------------------- */
 
@@ -27,6 +30,7 @@ Description: Used to style the TinyMCE editor.
 @import "wordpress/alignment";
 @import "wordpress/galleries";
 @import "wordpress/images";
+
 
 /* =Custom Editor Styles
 -------------------------------------------------------------- */

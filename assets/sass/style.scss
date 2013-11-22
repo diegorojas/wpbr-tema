@@ -153,28 +153,17 @@ html {
 /* =Content
 -------------------------------------------------------------- */
 
-.wrapper {
-
-}
-
-#main {
-
-}
-
-#primary {
-
-}
-
-#content {
-
-}
-
-#secondary {
-
+.hentry {
+	background: $white;
+	margin-bottom: 30px;
 }
 
 .entry-title {
-	margin-bottom: 0.4em;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0;
+	padding: 20px;
+	text-transform: uppercase;
 
 	a {
 
@@ -202,6 +191,79 @@ html {
 
 .sticky {
 	font-size: 100%;
+}
+
+.entry-content {
+	padding: 0 20px 10px;
+}
+
+.entry-featured {
+	position: relative;
+	line-height: 1.2;
+
+	a {
+		color: $white;
+	}
+
+	img {
+		position: relative;
+		z-index: 1;
+	}
+
+	.entry-meta {
+		@include border-radius(15px 0 0 15px);
+		background: $brand-primary;
+		color: $white;
+		bottom: 30px;
+		right: 0;
+		padding: 6px 6px 6px 15px;
+		position: absolute;
+		height: 57px;
+		z-index: 2;
+		text-transform: capitalize;
+	}
+
+	&.with-featured-image {
+		&:after {
+			content: " ";
+			background: url("../images/featured-image-shadow.png") center bottom no-repeat;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 5;
+			width: 100%;
+			height: 18px;
+		}
+	}
+
+	&.without-featured-image {
+		.entry-meta {
+			bottom: 50%;
+			margin-bottom: -29px;
+		}
+	}
+
+	.author {
+		float: right;
+		margin: 7px 10px 0 0;
+	}
+
+	.sep {
+		font-size: 80%;
+		display: block;
+	}
+
+	.avatar {
+		@include border-radius(50%);
+		display: block;
+		float: right;
+	}
+}
+
+.entry-footer-meta {
+	background: #dee0d1;
+	padding-left: 20px;
+	line-height: 43px;
 }
 
 /* =Pagination

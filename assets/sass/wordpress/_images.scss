@@ -4,7 +4,7 @@
 .widget {
 	img {
 		height: auto; /* Does height and width are scaled correctly */
-		max-width: 97.5%; /* Prevents the image passes the total area reserved */
+		max-width: 100%; /* Prevents the image passes the total area reserved */
 		width: auto; /* Avoids problems of stretching the image in IE8 */
 	}
 }

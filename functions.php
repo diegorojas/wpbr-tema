@@ -166,3 +166,31 @@ function cmm_wpbr_stylesheet_uri( $uri, $dir ) {
 }
 
 add_filter( 'stylesheet_uri', 'cmm_wpbr_stylesheet_uri', 10, 2 );
+
+/**
+ * Content thumbnail.
+ *
+ * @return string
+ */
+function cmm_wpbr_content_thumbnail() {
+	if ( ! class_exists( 'Odin_Thumbnail_Resizer' ) ) {
+		return;
+	}
+
+	$thumb  = get_post_thumbnail_id();
+	$width  = 780;
+	$height = 315;
+
+	if ( $thumb ) {
+		$resizer = Odin_Thumbnail_Resizer::get_instance();
+		$url     = wp_get_attachment_url( $thumb, 'full' );
+		$image   = $resizer->process( $url, $width, $height, true, true );
+		$html    = '<img class="wp-image-thumb img-responsive" src="' . esc_url( $image ) . '" width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '" alt="' . esc_attr( get_the_title() ) . '" />';
+
+		return apply_filters( 'cmm_wpbr_thumbnail_html', $html );
+	} else {
+		$html = '<img src="' . get_template_directory_uri() . '/assets/images/featured-image-default.png" alt="' . esc_attr( get_the_title() ) . '" />';
+
+		return $html;
+	}
+}

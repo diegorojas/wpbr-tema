@@ -10,24 +10,68 @@
 
 // Colors
 $gray: #464646;
+$white: #fff;
 
 // Brand colors
 // -------------------------
 $brand-primary: #2e6ea4;
+$brand-success: #5cb85c;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$brand-info: #5bc0de;
 
 // Scaffolding
 // -------------------------
-
 $body-bg: #eaecde;
 $text-color: #686761;
 
 // Typography
 // -------------------------
 $font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base: 15px;
 
 // Iconography
 // -------------------------
 $icon-font-path: '../fonts/bootstrap/';
+
+// Components
+// -------------------------
+$padding-base-vertical: 6px;
+$padding-base-horizontal: 12px;
+
+$padding-large-vertical: 8px;
+$padding-large-horizontal: 14px;
+
+$padding-small-vertical: 5px;
+$padding-small-horizontal: 10px;
+
+$border-radius-base: 0;
+$border-radius-large: $border-radius-base;
+$border-radius-small: $border-radius-base;
+
+// Buttons
+// -------------------------
+$btn-default-border: #ccc;
+
+$btn-primary-color: #fff;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $btn-primary-bg;
+
+$btn-success-color: #fff;
+$btn-success-bg: $brand-success;
+$btn-success-border: $btn-success-bg;
+
+$btn-warning-color: #fff;
+$btn-warning-bg: $brand-warning;
+$btn-warning-border: $btn-warning-bg;
+
+$btn-danger-color: #fff;
+$btn-danger-bg: $brand-danger;
+$btn-danger-border: $btn-danger-bg;
+
+$btn-info-color: #fff;
+$btn-info-bg: $brand-info;
+$btn-info-border: $btn-info-bg;
 
 // Navbar
 // -------------------------
