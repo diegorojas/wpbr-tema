@@ -57,7 +57,7 @@
 		</nav><!-- #top-navigation -->
 
 		<div id="wp-brasil-map">
-
+			<iframe src="http://mapa.wp-brasil.org/?embed" frameborder="0"></iframe>
 		</div>
 
 		<nav id="main-navigation" class="navbar navbar-inverse navbar-static-main" role="navigation">
