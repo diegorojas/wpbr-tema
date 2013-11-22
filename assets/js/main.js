@@ -18,4 +18,10 @@ jQuery(document).ready(function($) {
 	// Tooltip.
 	$( '.odin-tooltip' ).tooltip();
 
+    // Map header
+
+    if ($('#wp-brasil-map')) {
+        $('html, body').delay(1000).animate({ scrollTop: '360px' }, 1000);
+    }
+
 });
