@@ -78,23 +78,19 @@ html {
 
 }
 
-.site-title,
-.site-description {
+.site-title {
 	margin-top: $line-height-computed;
 	margin-bottom: ($line-height-computed / 2);
 }
 
-.site-title {
-	a {
-
-		&:hover {
-
-		}
-	}
-}
-
 .site-description {
+	color: #464646;
+	font-size: 16px;
+	line-height: 25px;
 
+	strong {
+		font-size: 25px;
+	}
 }
 
 /* =Top Navigation
@@ -111,13 +107,13 @@ html {
 }
 
 #top-navigation-icon {
-	background: url("../images/header-icon.png") no-repeat;
+	background: url(../images/header-icon.png) no-repeat;
 	height: 36px;
 	margin: 11px 0 0;
 	width: 95px;
 }
 
-/* =Navigation
+/* =Map
 -------------------------------------------------------------- */
 
 #wp-brasil-map {
@@ -140,7 +136,35 @@ html {
 	}
 }
 
+/* =Branding
+-------------------------------------------------------------- */
 
+#branding {
+	padding: 30px 0;
+	background: url(../images/header.jpg) center center no-repeat;
+	margin-bottom: 20px;
+}
+
+#header-buttons {
+	a {
+		background: $brand-primary;
+		color: #fff;
+		display: block;
+		margin-top: 30px;
+		padding: 25px 40px;
+		text-align: left;
+	}
+
+	.glyphicon {
+		float: left;
+		font-size: 45px;
+		margin-right: 20px;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+}
 
 /* =Search Form
 -------------------------------------------------------------- */
@@ -233,7 +257,7 @@ html {
 	&.with-featured-image {
 		&:after {
 			content: " ";
-			background: url("../images/featured-image-shadow.png") center bottom no-repeat;
+			background: url(../images/featured-image-shadow.png) center bottom no-repeat;
 			position: absolute;
 			bottom: 0;
 			left: 0;

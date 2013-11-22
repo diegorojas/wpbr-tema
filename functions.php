@@ -26,7 +26,7 @@ if ( ! isset( $content_width ) ) {
 require_once get_template_directory() . '/core/classes/class-bootstrap-nav.php';
 require_once get_template_directory() . '/core/classes/class-shortcodes.php';
 require_once get_template_directory() . '/core/classes/class-thumbnail-resizer.php';
-// require_once get_template_directory() . '/core/classes/class-theme-options.php';
+require_once get_template_directory() . '/core/classes/class-theme-options.php';
 // require_once get_template_directory() . '/core/classes/class-options-helper.php';
 // require_once get_template_directory() . '/core/classes/class-post-type.php';
 // require_once get_template_directory() . '/core/classes/class-taxonomy.php';
@@ -193,4 +193,22 @@ function cmm_wpbr_content_thumbnail() {
 
 		return $html;
 	}
+}
+
+/**
+ * Theme Options.
+ */
+require_once get_template_directory() . '/inc/theme-options.php';
+
+/**
+ * Header description.
+ */
+function cmm_wpbr_header_description() {
+	$options = get_option( 'cmm_wpbr_homepage' );
+
+	if ( isset( $options['welcome_text'] ) ) {
+		return wpautop( $options['welcome_text'] );
+	}
+
+	return;
 }
