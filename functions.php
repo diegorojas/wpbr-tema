@@ -212,3 +212,10 @@ function cmm_wpbr_header_description() {
 
 	return;
 }
+
+function get_map_url() {
+    if ( ! $details = get_blog_details( 'mapa' ) )
+        return false;
+
+    return $details->siteurl;
+}
