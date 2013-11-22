@@ -194,3 +194,9 @@ function cmm_wpbr_content_thumbnail() {
 		return $html;
 	}
 }
+
+function get_map_url() {
+    if ( !$details = get_blog_details( 'mapa' ) )
+        return false;
+    return $details->siteurl;
+}
