@@ -26,7 +26,7 @@
 				</div>
 			</div><!-- .footer-area -->
 			<div class="col-md-4 hidden-xs logo-area">
-				<img class="logo-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo('name' ); ?>">
+				<img class="logo-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-footer.png" alt="<?php bloginfo('name' ); ?>">
 				<div class="logo-title">
 					<span>
 						<?php _e( 'Community', 'comunidade-wordpress-br' ); ?>
