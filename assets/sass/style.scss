@@ -443,12 +443,12 @@ body {
 		margin-bottom: -80px;
 		padding: 20px 30px;
 		top: -60px;
-		vertical-align: middle;
 	}
 
 	.logo-image {
-		display: inline-block;
+		display: block;
 		float: left;
+		position: relative;
 		margin-right: 10px;
 	}
 
@@ -464,6 +464,32 @@ body {
 
 		span {
 			color: $brand-primary;
+		}
+	}
+}
+
+/* =Responsive adjustments
+-------------------------------------------------------------- */
+@media (max-width: $screen-md-max) {
+	#footer {
+
+		.footer-area {
+			margin-top: 0;
+		}
+
+		.logo-area {
+			margin-bottom: 0;
+			top: 10px;
+			text-align: center;
+		}
+
+		.logo-image {
+			float: none;
+			display: inline-block;
+		}
+
+		.logo-title {
+			display: inline-block;
 		}
 	}
 }
