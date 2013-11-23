@@ -213,9 +213,15 @@ function cmm_wpbr_header_description() {
 	return;
 }
 
+/**
+ * Get the map url
+ *
+ * @return string
+ */
 function get_map_url() {
-    if ( ! $details = get_blog_details( 'mapa' ) )
-        return false;
+	if ( ! function_exists( 'get_blog_details' ) || ! $details = get_blog_details( 'mapa' ) ) {
+		return false;
+	}
 
-    return $details->siteurl;
+	return esc_url( $details->siteurl );
 }
