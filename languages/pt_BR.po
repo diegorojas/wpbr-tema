@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Comunidade WordPress-BR v1.9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-07 18:43-0300\n"
-"PO-Revision-Date: 2013-09-16 20:49:57+0000\n"
+"POT-Creation-Date: 2013-11-22 22:33-0300\n"
+"PO-Revision-Date: 2013-11-22 22:34-0300\n"
 "Last-Translator: Rafael Funchal <rafaelfunchal@gmail.com>\n"
 "Language-Team: WordPress Brasil Group\n"
 "MIME-Version: 1.0\n"
@@ -11,568 +11,573 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.5.4\n"
-"X-Poedit-Language: \n"
-"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: ..\n"
-"X-Textdomain-Support: yes"
 
-#: 404.php:14
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../404.php:14
 msgid "This is embarrassing, no?"
 msgstr "Isso é embaraçoso, não?"
 
-#: 404.php:17
-#@ comunidade-wordpress-br
-msgid "It seems we can not find what you were looking for. Maybe a search or the links below can help."
-msgstr "Parece que não conseguimos encontrar o que você estava procurando. Talvez, uma pesquisa ou os links abaixo possam ajudar."
+# @ comunidade-wordpress-br
+#: ../404.php:17
+msgid ""
+"It seems we can not find what you were looking for. Maybe a search or the "
+"links below can help."
+msgstr ""
+"Parece que não conseguimos encontrar o que você estava procurando. Talvez, "
+"uma pesquisa ou os links abaixo possam ajudar."
 
-#: 404.php:24
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../404.php:24
 msgid "Most Used Categories"
 msgstr "Categorias mais usadas"
 
-#: archive.php:33
-#@ comunidade-wordpress-br
-msgid "Blog Archives"
-msgstr "Arquivos do Blog"
-
-#: image.php:21
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Image total size: %s pixels"
-msgstr "Tamanho total da imagem: %s pixels"
-
-#: image.php:21
-#@ comunidade-wordpress-br
-msgid "Full image link"
-msgstr "Link da imagem completa"
-
-#: audio.php:36
-#: image.php:38
-#: video.php:32
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Back to %s"
-msgstr "Voltar para %s"
-
-#: audio.php:36
-#: image.php:38
-#: video.php:32
-#, php-format
-#@ comunidade-wordpress-br
-msgid "<span class=\"meta-nav\">&larr;</span> %s"
-msgstr "<span class=\"meta-nav\">&larr;</span> %s"
-
-#: content.php:25
-#: image.php:29
-#@ comunidade-wordpress-br
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continue lendo <span class=\"meta-nav\">&rarr;</span>"
-
-#: content.php:26
-#: image.php:30
-#: page-sidebar.php:22
-#: page.php:23
-#: single-custom_type.php:29
-#: single.php:27
-#@ comunidade-wordpress-br
-msgid "Pages:"
-msgstr "Páginas:"
-
-#: image.php:33
-#@ comunidade-wordpress-br
-msgid "Next image &rarr;"
-msgstr "Próxima imagem &rarr;"
-
-#: image.php:32
-#@ comunidade-wordpress-br
-msgid "&larr; Previous image"
-msgstr "&larr; Imagem anterior"
-
-#: comments.php:13
-#@ comunidade-wordpress-br
-msgid "This post is password protected. Enter the password to view all comments."
-msgstr "Esse post é protegido por senha. Informe a senha para ver todos os comentários."
-
-#: comments.php:22
-#@ comunidade-wordpress-br
-msgid "0 Comments"
-msgstr "0 Comentários"
-
-#: comments.php:22
-#: content.php:33
-#@ comunidade-wordpress-br
-msgid "1 Comment"
-msgstr "1 Comentário"
-
-#: comments.php:22
-#: content.php:33
-#@ comunidade-wordpress-br
-msgid "% Comments"
-msgstr "% Comentários"
-
-#: comments.php:28
-#: comments.php:37
-#@ comunidade-wordpress-br
-msgid "&larr; Old Comments"
-msgstr "&larr; Comentários Antigos"
-
-#: comments.php:29
-#: comments.php:38
-#@ comunidade-wordpress-br
-msgid "New Comments &rarr;"
-msgstr "Novos Comentários &rarr;"
-
-#: comments.php:43
-#@ comunidade-wordpress-br
-msgid "Comments closed."
-msgstr "Comentários não são permitidos."
-
-#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
-#: comments.php:54
-#: content.php:33
-#@ comunidade-wordpress-br
-msgid "Comment"
-msgid_plural "odin"
-msgstr[0] "Comentário"
-msgstr[1] "odin"
-
-#: comments.php:56
-#@ comunidade-wordpress-br
-msgid "Name"
-msgstr "Nome"
-
-#: comments.php:57
-#@ comunidade-wordpress-br
-msgid "E-mail"
-msgstr "E-mail"
-
-#: comments.php:58
-#@ comunidade-wordpress-br
-msgid "Website"
-msgstr "Website"
-
-#: footer.php:14
-#@ comunidade-wordpress-br
-msgid "All rights reserved"
-msgstr "Todos os direitos reservados"
-
-#: footer.php:14
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Powered by the <a href=\"%s\" rel=\"nofollow\" target=\"_blank\" itemprop=\"copyrightHolder\">Odin</a> forces and <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
-msgstr "Produzido pelas forças de <a href=\"%s\" rel=\"nofollow\" target=\"_blank\" itemprop=\"copyrightHolder\">Odin</a> e <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">WordPress</a>."
-
-#: functions.php:37
-#@ comunidade-wordpress-br
-msgid "Main Menu"
-msgstr "Menu Principal"
-
-#: functions.php:117
-#@ comunidade-wordpress-br
-msgid "Main Sidebar"
-msgstr "Sidebar Principal"
-
-#: functions.php:119
-#@ comunidade-wordpress-br
-msgid "Site Main Sidebar"
-msgstr "Sidebar principal do site"
-
-#: header.php:46
-#@ comunidade-wordpress-br
-msgid "Skip to content"
-msgstr "Pular para o conteúdo"
-
-#: header.php:74
-#@ comunidade-wordpress-br
-msgid "Search:"
-msgstr "Pesquisar:"
-
-#: no-results.php:11
-#@ comunidade-wordpress-br
-msgid "Nothing Found"
-msgstr "Nada Encontrado"
-
-#: no-results.php:14
-#@ comunidade-wordpress-br
-msgid "No results were found for the requested archive. Maybe a search can help you to find any related post."
-msgstr "Nada encontrado para o arquivo selecionado. Talvez uma pesquisa possa ajudá-lo a encontrar um post relacionado."
-
-#: header.php:78
-#: searchform.php:11
-#: searchform.php:14
-#@ comunidade-wordpress-br
-msgid "Search"
-msgstr "Pesquisa"
-
-#: single-custom_type.php:23
-#: single.php:21
-#@ comunidade-wordpress-br
-msgid "| Posted in"
-msgstr "| Publicado em"
-
-#: core/tools.php:48
-#@ comunidade-wordpress-br
-msgid "&laquo; Previous"
-msgstr "&laquo; Anterior"
-
-#: core/tools.php:49
-#@ comunidade-wordpress-br
-msgid "Next &raquo;"
-msgstr "Próximo &raquo;"
-
-#: core/tools.php:297
-#, php-format
-#@ comunidade-wordpress-br
-msgid "%sCategory: %s%s"
-msgstr "%sCategoria: %s%s"
-
-#: core/tools.php:301
-#, php-format
-#@ comunidade-wordpress-br
-msgid "%sTag: %s%s"
-msgstr "%sTag: %s%s"
-
-#: core/tools.php:309
-#, php-format
-#@ comunidade-wordpress-br
-msgid "%sSearch result for: &quot;%s&quot;%s"
-msgstr "%sResultado da busca para: &quot;%s&quot;%s"
-
-#: core/tools.php:316
-#@ comunidade-wordpress-br
-msgid "Posted by"
-msgstr "Publicado por"
-
-#: core/tools.php:355
-#@ comunidade-wordpress-br
-msgid "404 Error"
-msgstr "Erro 404"
-
-#: core/tools.php:362
-#: core/tools.php:364
-#: inc/optimize.php:25
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Page %s"
-msgstr "Página %s"
-
-#: core/classes/class-metabox.php:78
-#: core/classes/class-metabox.php:405
-#: core/classes/class-theme-options.php:93
-#: core/classes/class-theme-options.php:615
-#@ comunidade-wordpress-br
-msgid "Add images in gallery"
-msgstr "Adicionar imagens na galeria"
-
-#: core/classes/class-metabox.php:79
-#: core/classes/class-theme-options.php:94
-#@ comunidade-wordpress-br
-msgid "Add in gallery"
-msgstr "Adicionar na galeria"
-
-#: core/classes/class-metabox.php:80
-#: core/classes/class-metabox.php:369
-#: core/classes/class-metabox.php:394
-#: core/classes/class-theme-options.php:95
-#: core/classes/class-theme-options.php:570
-#: core/classes/class-theme-options.php:604
-#@ comunidade-wordpress-br
-msgid "Remove image"
-msgstr "Remover imagem"
-
-#: core/classes/class-metabox.php:347
-#: core/classes/class-theme-options.php:538
-#@ comunidade-wordpress-br
-msgid "Select file"
-msgstr "Selecionar arquivo"
-
-#: core/classes/class-metabox.php:369
-#: core/classes/class-theme-options.php:570
-#@ comunidade-wordpress-br
-msgid "Select image"
-msgstr "Selecionar imagem"
-
-#: core/classes/class-post-type.php:73
-#: core/classes/class-post-type.php:80
-#: core/classes/class-taxonomy.php:75
-#: core/classes/class-taxonomy.php:84
-#, php-format
-#@ comunidade-wordpress-br
-msgid "%ss"
-msgstr "%ss"
-
-#: core/classes/class-post-type.php:74
-#: core/classes/class-taxonomy.php:76
-#, php-format
-#@ comunidade-wordpress-br
-msgid "%s"
-msgstr "%s"
-
-#: core/classes/class-post-type.php:75
-#: core/classes/class-taxonomy.php:78
-#, php-format
-#@ comunidade-wordpress-br
-msgid "View %s"
-msgstr "Ver %s"
-
-#: core/classes/class-post-type.php:76
-#: core/classes/class-taxonomy.php:79
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Edit %s"
-msgstr "Editar %s"
-
-#: core/classes/class-post-type.php:77
-#: core/classes/class-taxonomy.php:80
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Search %s"
-msgstr "Pesquisar %s"
-
-#: core/classes/class-post-type.php:78
-#: core/classes/class-taxonomy.php:81
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Update %s"
-msgstr "Atualizar  %s"
-
-#: core/classes/class-post-type.php:79
-#: core/classes/class-taxonomy.php:82
-#: core/classes/class-taxonomy.php:83
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Parent %s:"
-msgstr "Parente %s"
-
-#: core/classes/class-post-type.php:81
-#@ comunidade-wordpress-br
-msgid "Add New"
-msgstr "Adicionar Novo"
-
-#: core/classes/class-post-type.php:82
-#: core/classes/class-taxonomy.php:85
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Add New %s"
-msgstr "Adicionar Novo %s"
-
-#: core/classes/class-post-type.php:83
-#: core/classes/class-taxonomy.php:86
-#, php-format
-#@ comunidade-wordpress-br
-msgid "New %s"
-msgstr "Novo %s"
-
-#: core/classes/class-post-type.php:84
-#: core/classes/class-taxonomy.php:87
-#, php-format
-#@ comunidade-wordpress-br
-msgid "All %ss"
-msgstr "Todos os %ss"
-
-#: core/classes/class-post-type.php:85
-#, php-format
-#@ comunidade-wordpress-br
-msgid "No %s found"
-msgstr "Nenhum %s encontrado"
-
-#: core/classes/class-post-type.php:86
-#, php-format
-#@ comunidade-wordpress-br
-msgid "No %s found in Trash"
-msgstr "Nenhum %s encontrado na Lixeira"
-
-#: core/classes/class-taxonomy.php:77
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Add or Remove %ss"
-msgstr "Adicionar ou Remover %ss"
-
-#: core/classes/class-taxonomy.php:88
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Separate %ss with comma"
-msgstr "Separe %ss com vírgula"
-
-#: core/classes/class-taxonomy.php:89
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Choose from %ss most used"
-msgstr "Escolher entre os %ss mais usados"
-
-#: inc/comments-loop.php:13
-#: inc/comments-loop.php:23
-#@ comunidade-wordpress-br
-msgid "Edit"
-msgstr "Editar"
-
-#: inc/comments-loop.php:22
-#@ comunidade-wordpress-br
-msgid "in"
-msgstr "em"
-
-#: inc/comments-loop.php:22
-#@ comunidade-wordpress-br
-msgid "at"
-msgstr "as"
-
-#: inc/comments-loop.php:22
-#@ comunidade-wordpress-br
-msgid "said:"
-msgstr "disse:"
-
-#: inc/comments-loop.php:26
-#@ comunidade-wordpress-br
-msgid "Your comment is awaiting moderation."
-msgstr "Seu comentário está aguardando moderação."
-
-#: inc/comments-loop.php:31
-#@ comunidade-wordpress-br
-msgid "Respond"
-msgstr "Responder"
-
-#: archive.php:27
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../archive.php:27
 msgid "Daily Archives:"
 msgstr "Arquivos Diários:"
 
-#: archive.php:29
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../archive.php:29
 msgid "Monthly Archives:"
 msgstr "Arquivos Mensais:"
 
-#: archive.php:31
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../archive.php:31
 msgid "Yearly Archives:"
 msgstr "Arquivos Anuais:"
 
-#: author.php:16
-#@ comunidade-wordpress-br
-msgid "Author Archives:"
-msgstr "Arquivo do Autor:"
+# @ comunidade-wordpress-br
+#: ../archive.php:33
+msgid "Blog Archives"
+msgstr "Arquivos do Blog"
 
-#: category.php:16
-#@ comunidade-wordpress-br
-msgid "Category Archives:"
-msgstr "Arquivo da Categoria:"
-
-#: core/classes/class-metabox.php:81
-#: core/classes/class-theme-options.php:96
-#@ comunidade-wordpress-br
-msgid "Choose a file"
-msgstr "Selecione um arquivo"
-
-#: core/classes/class-metabox.php:82
-#: core/classes/class-theme-options.php:97
-#@ comunidade-wordpress-br
-msgid "Add file"
-msgstr "Adicionar arquivo"
-
-#: search.php:14
-#@ comunidade-wordpress-br
-msgid "Search results for:"
-msgstr "Resultados de busca por:"
-
-#: tag.php:18
-#@ comunidade-wordpress-br
-msgid "Tag Archives:"
-msgstr "Arquivo da Tag:"
-
-#: comments.php:23
-#@ comunidade-wordpress-br
-msgid "to"
-msgstr "para"
-
-#: content.php:12
-#@ comunidade-wordpress-br
-msgid "Permalink to"
-msgstr "Link permanente para"
-
-#: content.php:15
-#: single-custom_type.php:19
-#: single.php:17
-#@ comunidade-wordpress-br
-msgid "By"
-msgstr "Por"
-
-#: content.php:19
-#: content.php:29
-#: single-custom_type.php:32
-#: single.php:30
-#@ comunidade-wordpress-br
-msgid "Posted in"
-msgstr "Publicado em"
-
-#: inc/comments-loop.php:13
-#@ comunidade-wordpress-br
-msgid "Pingback:"
-msgstr "Pingback:"
-
-#: content.php:17
-#: single-custom_type.php:21
-#: single.php:19
-#@ comunidade-wordpress-br
-msgid "All posts by"
-msgstr "Todos posts de"
-
-#: content.php:30
-#: single-custom_type.php:33
-#: single.php:31
-#@ comunidade-wordpress-br
-msgid "and tagged as"
-msgstr "e marcado como"
-
-#: author.php:21
-#@ comunidade-wordpress-br
-msgid "About"
-msgstr "Sobre"
-
-#: core/tools.php:396
-#@ comunidade-wordpress-br
-msgid "Add a menu"
-msgstr "Adicionar um menu"
-
-#: audio.php:27
-#: video.php:23
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../audio.php:27 ../video.php:23
 msgid "URL:"
 msgstr "URL:"
 
-#: header.php:49
-#@ comunidade-wordpress-br
+# @ comunidade-wordpress-br
+#: ../audio.php:36 ../image.php:38 ../video.php:32
+#, php-format
+msgid "Back to %s"
+msgstr "Voltar para %s"
+
+# @ comunidade-wordpress-br
+#: ../audio.php:36 ../image.php:38 ../video.php:32
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+# @ comunidade-wordpress-br
+#: ../author.php:16
+msgid "Author Archives:"
+msgstr "Arquivo do Autor:"
+
+# @ comunidade-wordpress-br
+#: ../author.php:21
+msgid "About"
+msgstr "Sobre"
+
+# @ comunidade-wordpress-br
+#: ../category.php:16
+msgid "Category Archives:"
+msgstr "Arquivo da Categoria:"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view all comments."
+msgstr ""
+"Esse post é protegido por senha. Informe a senha para ver todos os "
+"comentários."
+
+# @ comunidade-wordpress-br
+#: ../comments.php:22
+msgid "0 Comments"
+msgstr "0 Comentários"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:22
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:22
+msgid "% Comments"
+msgstr "% Comentários"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:23
+msgid "to"
+msgstr "para"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:28 ../comments.php:37
+msgid "&larr; Old Comments"
+msgstr "&larr; Comentários Antigos"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:29 ../comments.php:38
+msgid "New Comments &rarr;"
+msgstr "Novos Comentários &rarr;"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:43
+msgid "Comments closed."
+msgstr "Comentários não são permitidos."
+
+# @ comunidade-wordpress-br
+#: ../comments.php:54
+msgid "Comment"
+msgstr "Comentário"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:56
+msgid "Name"
+msgstr "Nome"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:57
+msgid "E-mail"
+msgstr "E-mail"
+
+# @ comunidade-wordpress-br
+#: ../comments.php:58
+msgid "Website"
+msgstr "Website"
+
+# @ comunidade-wordpress-br
+#: ../content.php:16 ../single.php:17
+msgid "By"
+msgstr "Por"
+
+# @ comunidade-wordpress-br
+#: ../content.php:17 ../single.php:19
+msgid "All posts by"
+msgstr "Todos posts de"
+
+# @ comunidade-wordpress-br
+#: ../content.php:22
+msgid "Permalink to"
+msgstr "Link permanente para"
+
+# @ comunidade-wordpress-br
+#: ../content.php:28 ../image.php:30 ../page-sidebar.php:22 ../page.php:23
+#: ../single.php:27
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: ../content.php:31
+msgid "In"
+msgstr "em"
+
+# @ comunidade-wordpress-br
+#: ../content.php:32 ../inc/comments-loop.php:22
+msgid "in"
+msgstr "em"
+
+#: ../content.php:34
+#, php-format
+msgid "Read more %s"
+msgstr "Leia mais %s"
+
+# @ comunidade-wordpress-br
+#: ../content.php:34
+msgid "Read more &raquo;"
+msgstr "Leia mais &raquo;"
+
+# @ comunidade-wordpress-br
+#: ../footer.php:20
+#, php-format
+msgid "Powered by %s"
+msgstr "Orgulhosamente criado com %s"
+
+#: ../footer.php:20
+msgid "WordPress"
+msgstr "WordPress"
+
+# @ comunidade-wordpress-br
+#: ../footer.php:24
+msgid "Some rights reserved"
+msgstr "Alguns direitos reservados"
+
+# @ comunidade-wordpress-br
+#: ../footer.php:32
+msgid "Community"
+msgstr "Comunidade"
+
+#: ../footer.php:34
+msgid "WordPress-BR"
+msgstr "WordPress-BR"
+
+#: ../functions.php:53
+msgid "Top Menu"
+msgstr "Menu do Topo"
+
+# @ comunidade-wordpress-br
+#: ../functions.php:54
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+# @ comunidade-wordpress-br
+#: ../functions.php:92
+msgid "Main Sidebar"
+msgstr "Sidebar Principal"
+
+# @ comunidade-wordpress-br
+#: ../functions.php:94
+msgid "Site Main Sidebar"
+msgstr "Sidebar principal do site"
+
+# @ comunidade-wordpress-br
+#: ../header.php:32
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+# @ comunidade-wordpress-br
+#: ../header.php:35 ../header.php:67
 msgid "Toggle navigation"
 msgstr "Alternar navegação"
 
-#: core/classes/abstracts/abstract-front-end-form.php:231
-#@ comunidade-wordpress-br
-msgid "Submit"
-msgstr "Enviar"
-
-#: core/classes/abstracts/abstract-front-end-form.php:272
-#@ comunidade-wordpress-br
-msgid "Form submitted successfully!"
-msgstr "Formulário enviado com sucesso!"
-
-#: core/classes/abstracts/abstract-front-end-form.php:486
+# @ comunidade-wordpress-br
+#: ../image.php:21
 #, php-format
-#@ comunidade-wordpress-br
-msgid "%s is required."
-msgstr "%s é um campo obrigatório."
+msgid "Image total size: %s pixels"
+msgstr "Tamanho total da imagem: %s pixels"
 
-#: core/classes/abstracts/abstract-front-end-form.php:491
-#, php-format
-#@ comunidade-wordpress-br
-msgid "%s must be an email address valid."
-msgstr "%s precisa ser um endereço de email válido"
+# @ comunidade-wordpress-br
+#: ../image.php:21
+msgid "Full image link"
+msgstr "Link da imagem completa"
 
-#: core/classes/class-contact-form.php:167
+# @ comunidade-wordpress-br
+#: ../image.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue lendo <span class=\"meta-nav\">&rarr;</span>"
+
+# @ comunidade-wordpress-br
+#: ../image.php:32
+msgid "&larr; Previous image"
+msgstr "&larr; Imagem anterior"
+
+# @ comunidade-wordpress-br
+#: ../image.php:33
+msgid "Next image &rarr;"
+msgstr "Próxima imagem &rarr;"
+
+# @ comunidade-wordpress-br
+#: ../no-results.php:11
+msgid "Nothing Found"
+msgstr "Nada Encontrado"
+
+# @ comunidade-wordpress-br
+#: ../no-results.php:14
+msgid ""
+"No results were found for the requested archive. Maybe a search can help you "
+"to find any related post."
+msgstr ""
+"Nada encontrado para o arquivo selecionado. Talvez uma pesquisa possa ajudá-"
+"lo a encontrar um post relacionado."
+
+# @ comunidade-wordpress-br
+#: ../search.php:14
+msgid "Search results for:"
+msgstr "Resultados de busca por:"
+
+# @ comunidade-wordpress-br
+#: ../searchform.php:11
+msgid "Search"
+msgstr "Pesquisa"
+
+# @ comunidade-wordpress-br
+#: ../single.php:21
+msgid "| Posted in"
+msgstr "| Publicado em"
+
+# @ comunidade-wordpress-br
+#: ../single.php:31
+msgid "Posted in"
+msgstr "Publicado em"
+
+# @ comunidade-wordpress-br
+#: ../single.php:32
+msgid "and tagged as"
+msgstr "e marcado como"
+
+# @ comunidade-wordpress-br
+#: ../tag.php:18
+msgid "Tag Archives:"
+msgstr "Arquivo da Tag:"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:54
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:55
+msgid "Next &raquo;"
+msgstr "Próximo &raquo;"
+
+#: ../core/helpers.php:94
+msgid "Related Posts"
+msgstr "Posts Relacionados"
+
+#: ../core/helpers.php:217
+msgid "Home"
+msgstr "Home"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:309
 #, php-format
-#@ comunidade-wordpress-br
+msgid "%sCategory: %s%s"
+msgstr "%sCategoria: %s%s"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:313
+#, php-format
+msgid "%sTag: %s%s"
+msgstr "%sTag: %s%s"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:321
+#, php-format
+msgid "%sSearch result for: &quot;%s&quot;%s"
+msgstr "%sResultado da busca para: &quot;%s&quot;%s"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:328
+msgid "Posted by"
+msgstr "Publicado por"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:367
+msgid "404 Error"
+msgstr "Erro 404"
+
+# @ comunidade-wordpress-br
+#: ../core/helpers.php:374 ../core/helpers.php:376 ../inc/optimize.php:27
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-bootstrap-nav.php:203
+msgid "Add a menu"
+msgstr "Adicionar um menu"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-contact-form.php:170
+#, php-format
 msgid "Message sent by the form %s in %s at %s"
 msgstr "Mensagem enviada pelo formulário %s em %s às %s"
 
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:78 ../core/classes/class-metabox.php:424
+#: ../core/classes/class-theme-options.php:89
+#: ../core/classes/class-theme-options.php:619
+msgid "Add images in gallery"
+msgstr "Adicionar imagens na galeria"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:79
+#: ../core/classes/class-theme-options.php:90
+msgid "Add in gallery"
+msgstr "Adicionar na galeria"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:80 ../core/classes/class-metabox.php:388
+#: ../core/classes/class-metabox.php:413
+#: ../core/classes/class-theme-options.php:91
+#: ../core/classes/class-theme-options.php:573
+#: ../core/classes/class-theme-options.php:608
+msgid "Remove image"
+msgstr "Remover imagem"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:81
+#: ../core/classes/class-theme-options.php:92
+msgid "Choose a file"
+msgstr "Selecione um arquivo"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:82
+#: ../core/classes/class-theme-options.php:93
+msgid "Add file"
+msgstr "Adicionar arquivo"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:366
+#: ../core/classes/class-theme-options.php:540
+msgid "Select file"
+msgstr "Selecionar arquivo"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-metabox.php:388
+#: ../core/classes/class-theme-options.php:573
+msgid "Select image"
+msgstr "Selecionar imagem"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:73
+#: ../core/classes/class-post-type.php:80
+#: ../core/classes/class-taxonomy.php:75 ../core/classes/class-taxonomy.php:84
+#, php-format
+msgid "%ss"
+msgstr "%ss"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:74
+#: ../core/classes/class-taxonomy.php:76
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:75
+#: ../core/classes/class-taxonomy.php:78
+#, php-format
+msgid "View %s"
+msgstr "Ver %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:76
+#: ../core/classes/class-taxonomy.php:79
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:77
+#: ../core/classes/class-taxonomy.php:80
+#, php-format
+msgid "Search %s"
+msgstr "Pesquisar %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:78
+#: ../core/classes/class-taxonomy.php:81
+#, php-format
+msgid "Update %s"
+msgstr "Atualizar  %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:79
+#: ../core/classes/class-taxonomy.php:82 ../core/classes/class-taxonomy.php:83
+#, php-format
+msgid "Parent %s:"
+msgstr "Parente %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:81
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:82
+#: ../core/classes/class-taxonomy.php:85
+#, php-format
+msgid "Add New %s"
+msgstr "Adicionar Novo %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:83
+#: ../core/classes/class-taxonomy.php:86
+#, php-format
+msgid "New %s"
+msgstr "Novo %s"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:84
+#: ../core/classes/class-taxonomy.php:87
+#, php-format
+msgid "All %ss"
+msgstr "Todos os %ss"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:85
+#, php-format
+msgid "No %s found"
+msgstr "Nenhum %s encontrado"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-post-type.php:86
+#, php-format
+msgid "No %s found in Trash"
+msgstr "Nenhum %s encontrado na Lixeira"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-taxonomy.php:77
+#, php-format
+msgid "Add or Remove %ss"
+msgstr "Adicionar ou Remover %ss"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-taxonomy.php:88
+#, php-format
+msgid "Separate %ss with comma"
+msgstr "Separe %ss com vírgula"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/class-taxonomy.php:89
+#, php-format
+msgid "Choose from %ss most used"
+msgstr "Escolher entre os %ss mais usados"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/abstracts/abstract-front-end-form.php:234
+msgid "Submit"
+msgstr "Enviar"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/abstracts/abstract-front-end-form.php:276
+msgid "Form submitted successfully!"
+msgstr "Formulário enviado com sucesso!"
+
+# @ comunidade-wordpress-br
+#: ../core/classes/abstracts/abstract-front-end-form.php:507
+#, php-format
+msgid "%s is required."
+msgstr "%s é um campo obrigatório."
+
+# @ comunidade-wordpress-br
+#: ../core/classes/abstracts/abstract-front-end-form.php:513
+#, php-format
+msgid "%s must be an email address valid."
+msgstr "%s precisa ser um endereço de email válido"
+
+# @ comunidade-wordpress-br
+#: ../inc/comments-loop.php:13
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ comunidade-wordpress-br
+#: ../inc/comments-loop.php:13 ../inc/comments-loop.php:23
+msgid "Edit"
+msgstr "Editar"
+
+# @ comunidade-wordpress-br
+#: ../inc/comments-loop.php:22
+msgid "at"
+msgstr "as"
+
+# @ comunidade-wordpress-br
+#: ../inc/comments-loop.php:22
+msgid "said:"
+msgstr "disse:"
+
+# @ comunidade-wordpress-br
+#: ../inc/comments-loop.php:26
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+# @ comunidade-wordpress-br
+#: ../inc/comments-loop.php:31
+msgid "Respond"
+msgstr "Responder"
