@@ -121,18 +121,11 @@ module.exports = function( grunt ) {
 				recursive: true,
 				syncDest: true
 			},
-			staging: {
-				options: {
-					src: '../',
-					dest: '~/PATH/wp-content/themes/odin',
-					host: 'user@host.com'
-				}
-			},
 			production: {
 				options: {
 					src: '../',
-					dest: '~/PATH/wp-content/themes/odin',
-					host: 'user@host.com'
+					dest: '~/wp-brasil.org/wp-content/themes/tema',
+					host: 'wordpressbr@wp-brasil.org'
 				}
 			}
 		},
