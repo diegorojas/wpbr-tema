@@ -51,7 +51,7 @@
 							)
 						);
 					?>
-					<div id="top-navigation-icon" class="navbar-text navbar-right hidden-xs"></div>
+					<a id="top-navigation-icon" class="navbar-text navbar-right hidden-xs" href="http://br.wordpress.org/"></a>
 				</div><!-- /.navbar-collapse -->
 			</div>
 		</nav><!-- #top-navigation -->
