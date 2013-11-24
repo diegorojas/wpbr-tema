@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Comunidade WordPress-BR v1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-22 22:33-0300\n"
-"PO-Revision-Date: 2013-11-23 07:07:58+0000\n"
+"PO-Revision-Date: 2013-11-24 21:39:30+0000\n"
 "Last-Translator: Rafael Funchal <rafaelfunchal@gmail.com>\n"
 "Language-Team: WordPress Brasil Group\n"
 "MIME-Version: 1.0\n"
@@ -155,13 +155,11 @@ msgid "Website"
 msgstr "Website"
 
 #: content.php:16
-#: single.php:17
 #@ comunidade-wordpress-br
 msgid "By"
 msgstr "Por"
 
 #: content.php:17
-#: single.php:19
 #@ comunidade-wordpress-br
 msgid "All posts by"
 msgstr "Todos posts de"
@@ -175,18 +173,20 @@ msgstr "Link permanente para"
 #: image.php:30
 #: page-sidebar.php:22
 #: page.php:23
-#: single.php:27
+#: single.php:19
 #@ comunidade-wordpress-br
 msgid "Pages:"
 msgstr "Páginas:"
 
 #: content.php:31
+#: single.php:23
 #@ comunidade-wordpress-br
 msgid "In"
 msgstr "em"
 
 #: content.php:32
 #: inc/comments-loop.php:22
+#: single.php:24
 #@ comunidade-wordpress-br
 msgid "in"
 msgstr "em"
@@ -238,12 +238,12 @@ msgstr "Menu do Topo"
 msgid "Main Menu"
 msgstr "Menu Principal"
 
-#: functions.php:92
+#: functions.php:93
 #@ comunidade-wordpress-br
 msgid "Main Sidebar"
 msgstr "Sidebar Principal"
 
-#: functions.php:94
+#: functions.php:95
 #@ comunidade-wordpress-br
 msgid "Site Main Sidebar"
 msgstr "Sidebar principal do site"
@@ -305,21 +305,6 @@ msgstr "Resultados de busca por:"
 #@ comunidade-wordpress-br
 msgid "Search"
 msgstr "Pesquisa"
-
-#: single.php:21
-#@ comunidade-wordpress-br
-msgid "| Posted in"
-msgstr "| Publicado em"
-
-#: single.php:31
-#@ comunidade-wordpress-br
-msgid "Posted in"
-msgstr "Publicado em"
-
-#: single.php:32
-#@ comunidade-wordpress-br
-msgid "and tagged as"
-msgstr "e marcado como"
 
 #: tag.php:18
 #@ comunidade-wordpress-br
@@ -638,7 +623,28 @@ msgid "Header"
 msgstr "Cabeçalho"
 
 #: inc/theme-options.php:32
-#@ odin
+#@ comunidade-wordpress-br
 msgid "Welcome message"
 msgstr "Mensagem de boas vindas"
+
+#: functions.php:55
+#@ comunidade-wordpress-br
+msgid "Category Menu"
+msgstr "Menu de Categoria"
+
+#: templates/news.php:5
+#@ comunidade-wordpress-br
+msgid "WordPress News"
+msgstr "Notícias sobre WordPress"
+
+#: templates/news.php:17
+#, php-format
+#@ comunidade-wordpress-br
+msgid "Publish here you also! %s"
+msgstr "Publique aqui você também! %s"
+
+#: templates/news.php:17
+#@ comunidade-wordpress-br
+msgid "Sign up!"
+msgstr "Cadastre-se!"
 

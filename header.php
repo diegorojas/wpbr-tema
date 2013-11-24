@@ -97,5 +97,9 @@
 
 	</header><!-- #header -->
 
+	<?php if ( is_home() ) : ?>
+		<?php get_template_part( 'templates/news' ); ?>
+	<?php endif; ?>
+
 	<div class="container">
 		<div id="main" class="row">

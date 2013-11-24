@@ -29,7 +29,7 @@ function cmm_wpbr_theme_options() {
 				'fields' => array(
 					array(
 						'id'    => 'welcome_text',
-						'label' => __( 'Welcome message', 'odin' ),
+						'label' => __( 'Welcome message', 'comunidade-wordpress-br' ),
 						'type'  => 'editor',
 					),
 				)
