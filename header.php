@@ -27,7 +27,7 @@
 </head>
 <body <?php body_class(); ?> itemscope="" itemtype="http://schema.org/WebPage">
 	<header id="header" role="banner">
-		<nav id="top-navigation" class="navbar navbar-default navbar-static-top" role="navigation">
+		<nav id="top-navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
 				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'comunidade-wordpress-br' ); ?>"><?php _e( 'Skip to content', 'comunidade-wordpress-br' ); ?></a>
 				<div class="navbar-header">
