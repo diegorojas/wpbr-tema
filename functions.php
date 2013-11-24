@@ -51,7 +51,8 @@ function cmm_wpbr_setup_features() {
 	register_nav_menus(
 		array(
 			'top-menu' => __( 'Top Menu', 'comunidade-wordpress-br' ),
-			'main-menu' => __( 'Main Menu', 'comunidade-wordpress-br' )
+			'main-menu' => __( 'Main Menu', 'comunidade-wordpress-br' ),
+			'category-menu' => __( 'Category Menu', 'comunidade-wordpress-br' )
 		)
 	);
 
@@ -225,3 +226,19 @@ function get_map_url() {
 
 	return esc_url( $details->siteurl );
 }
+
+/**
+ * First and last menu classes.
+ *
+ * @param  array $items
+ *
+ * @return array
+ */
+function cmm_wpbr_first_and_last_classes( $items ) {
+	$items[1]->classes[] = 'first';
+	$items[ count( $items ) ]->classes[] = 'last';
+
+	return $items;
+}
+
+add_filter( 'wp_nav_menu_objects', 'cmm_wpbr_first_and_last_classes' );
