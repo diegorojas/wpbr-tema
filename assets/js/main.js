@@ -19,10 +19,14 @@ jQuery(document).ready(function($) {
 	$( '.odin-tooltip' ).tooltip();
 
 	// Map header
-	var y_position = $(window).scrollTop();
+	var y_position = $( window ).scrollTop(),
+		window_height = $( window ).height();
+
 	if ( $( '#wp-brasil-map' ) && 0 === y_position ) {
+		$( '#wp-brasil-map, #wp-brasil-map iframe' ).height( window_height - 60 );
+
 		$( 'body.home' ).parent( 'html' ).delay( 1000 ).animate({
-			scrollTop: '360px'
+			scrollTop: ( window_height / 2 ) - 60
 		}, 1000 );
 	}
 
