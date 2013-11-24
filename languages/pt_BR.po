@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Comunidade WordPress-BR v1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-22 22:33-0300\n"
-"PO-Revision-Date: 2013-11-24 21:39:30+0000\n"
+"PO-Revision-Date: 2013-11-24 22:41:12+0000\n"
 "Last-Translator: Rafael Funchal <rafaelfunchal@gmail.com>\n"
 "Language-Team: WordPress Brasil Group\n"
 "MIME-Version: 1.0\n"
@@ -218,12 +218,12 @@ msgstr "WordPress"
 msgid "Some rights reserved"
 msgstr "Alguns direitos reservados"
 
-#: footer.php:32
+#: footer.php:33
 #@ comunidade-wordpress-br
 msgid "Community"
 msgstr "Comunidade"
 
-#: footer.php:34
+#: footer.php:35
 #@ comunidade-wordpress-br
 msgid "WordPress-BR"
 msgstr "WordPress-BR"
@@ -301,7 +301,7 @@ msgid "Search results for:"
 msgstr "Resultados de busca por:"
 
 #: searchform.php:11
-#: searchform.php:14
+#: searchform.php:12
 #@ comunidade-wordpress-br
 msgid "Search"
 msgstr "Pesquisa"
@@ -637,14 +637,14 @@ msgstr "Menu de Categoria"
 msgid "WordPress News"
 msgstr "Notícias sobre WordPress"
 
-#: templates/news.php:17
-#, php-format
-#@ comunidade-wordpress-br
-msgid "Publish here you also! %s"
-msgstr "Publique aqui você também! %s"
-
-#: templates/news.php:17
+#: templates/news.php:21
 #@ comunidade-wordpress-br
 msgid "Sign up!"
 msgstr "Cadastre-se!"
+
+#: templates/news.php:19
+#: templates/news.php:21
+#@ comunidade-wordpress-br
+msgid "Publish here too!"
+msgstr "Publique aqui também!"
 
