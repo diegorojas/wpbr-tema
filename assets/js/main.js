@@ -19,7 +19,8 @@ jQuery(document).ready(function($) {
 	$( '.odin-tooltip' ).tooltip();
 
 	// Map header
-	if ( $( '#wp-brasil-map' ) ) {
+	var y_position = $(window).scrollTop();
+	if ( $( '#wp-brasil-map' ) && 0 === y_position ) {
 		$( 'body.home' ).parent( 'html' ).delay( 1000 ).animate({
 			scrollTop: '360px'
 		}, 1000 );
