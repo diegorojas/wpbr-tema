@@ -56,7 +56,7 @@
 			</div>
 		</nav><!-- #top-navigation -->
 
-        <?php if ( $mapurl = get_map_url() && is_home() ) : ?>
+        <?php if ( ( $mapurl = get_map_url() ) && is_home() ) : ?>
 		    <div id="wp-brasil-map">
 			    <iframe src="<?php echo $mapurl; ?>/?embed" frameborder="0"></iframe>
 		    </div>

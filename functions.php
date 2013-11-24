@@ -223,5 +223,5 @@ function get_map_url() {
 		return false;
 	}
 
-	return $details->siteurl;
+	return esc_url( $details->siteurl );
 }
