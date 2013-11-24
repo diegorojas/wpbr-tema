@@ -305,15 +305,26 @@ body {
 -------------------------------------------------------------- */
 
 .commentlist {
+	background-color: #dee0d1;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 	font-size: 13px;
 	line-height: 22px;
 
 	li.comment, li.pingback {
 		@include clearfix();
 		list-style: none;
-		margin-bottom: 10px;
+		border-bottom: 1px solid $gray;
+		padding: 10px 0;
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	.children {
+		li:last-child {
+			border-bottom: none;
+		}
 	}
 
 	.comment-meta {
