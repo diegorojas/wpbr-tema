@@ -14,7 +14,7 @@
 					?>
 			</div>
 			<div id="archive-categories-register" class="col-md-6">
-				<p><?php echo sprintf( __( 'Publish here you also! %s', 'comunidade-wordpress-br' ), '<a href="">' . __( 'Sign up!', 'comunidade-wordpress-br' ) . '</a>' ); ?></p>
+				<p><?php echo sprintf( __( 'Publish here too! %s', 'comunidade-wordpress-br' ), '<a href="">' . __( 'Sign up!', 'comunidade-wordpress-br' ) . '</a>' ); ?></p>
 			</div>
 		</div>
 	</div>
