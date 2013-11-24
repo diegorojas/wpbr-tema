@@ -69,12 +69,16 @@ Description: Comunidade WordPress-BR main stylesheet.
 -------------------------------------------------------------- */
 html {
 	overflow-y: scroll;
+	height: 100%;
+	width: 100%;
 }
 
 body {
 	background-image: url(../images/texture-footer.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
 }
 
 /* =Header

@@ -14,7 +14,13 @@
 					?>
 			</div>
 			<div id="archive-categories-register" class="col-md-6">
-				<p><?php echo sprintf( __( 'Publish here you also! %s', 'comunidade-wordpress-br' ), '<a href="">' . __( 'Sign up!', 'comunidade-wordpress-br' ) . '</a>' ); ?></p>
+				<p>
+				<?php if ( is_user_logged_in() ) : ?>
+					<a href="<?php echo admin_url( 'post-new.php' ); ?>"><?php _e( 'Publish here too!', 'comunidade-wordpress-br' ); ?></a>
+				<?php else : ?>
+					<?php _e( 'Publish here too!', 'comunidade-wordpress-br' ); ?> <a href="<?php echo home_url( 'wp-signup.php' ); ?>"><?php _e( 'Sign up!', 'comunidade-wordpress-br' ); ?></a>
+				<?php endif; ?>
+				</p>
 			</div>
 		</div>
 	</div>
