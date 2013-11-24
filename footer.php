@@ -21,7 +21,8 @@
 
 					</div><!-- .col-sm-6 -->
 					<div class="col-sm-6">
-						<p class="text-right"><?php _e( 'Some rights reserved', 'comunidade-wordpress-br' ); ?> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-cc.png" alt="<?php _e( 'Some rights reserved', 'comunidade-wordpress-br' ); ?>"></p>
+						<p class="text-right"><?php _e( 'Some rights reserved', 'comunidade-wordpress-br' ); ?> <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/br/" target="_blank" title="<?php _e( 'Some rights reserved', 'comunidade-wordpress-br' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-cc.png" alt="<?php _e( 'Some rights reserved', 'comunidade-wordpress-br' ); ?>"></a>
+						</p>
 					</div><!-- . col-sm-6 -->
 				</div>
 			</div><!-- .footer-area -->
