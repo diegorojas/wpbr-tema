@@ -93,7 +93,7 @@ body {
 	}
 
 	@media (max-width: $screen-sm-min) {
-		margin: 0; 
+		margin: 0;
 	}
 }
 
@@ -297,22 +297,16 @@ body {
 
 .hentry {
 	background: $white;
-	margin-bottom: 30px;
+	margin-bottom: $grid-gutter-width;
 }
 
 .entry-title {
+	color: $brand-primary;
 	font-size: 30px;
 	font-weight: 400;
 	margin: 0;
 	padding: 20px;
 	text-transform: uppercase;
-
-	a {
-
-		&:hover {
-
-		}
-	}
 }
 
 .page-header {
@@ -406,6 +400,35 @@ body {
 	background: #dee0d1;
 	padding-left: 20px;
 	line-height: 43px;
+}
+
+/* =Contributors page
+-------------------------------------------------------------- */
+
+.contributor {
+	margin-bottom: $grid-gutter-width;
+
+	a {
+		display: block;
+		line-height: 37px;
+		padding: 10px;
+		text-align: left;
+	}
+
+	img {
+		margin-right: 10px;
+	}
+
+	strong {
+		color: $white;
+		display: block;
+		font-size: 24px;
+	}
+
+	small {
+		color: #359bce;
+		font-size: 16px;
+	}
 }
 
 /* =Pagination
@@ -507,7 +530,7 @@ body {
 	@include border-radius(0 0 12px 12px);
 	background: #fff;
 	padding-bottom: 10px;
-	margin-bottom: 30px;
+	margin-bottom: $grid-gutter-width;
 
 	p,
 	div {

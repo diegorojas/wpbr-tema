@@ -242,3 +242,34 @@ function cmm_wpbr_first_and_last_classes( $items ) {
 }
 
 add_filter( 'wp_nav_menu_objects', 'cmm_wpbr_first_and_last_classes' );
+
+/**
+ * GitHub contributors.
+ *
+ * @return array
+ */
+function cmm_wpbr_github_contributors() {
+    $transient = 'cmm_wpbr_github_contributors';
+    $data = get_transient( $transient );
+
+    // Test transient if exist.
+    if ( false != $data ) {
+        return $data;
+    }
+
+    // Get GitHub data.
+    $response = wp_remote_get( 'https://api.github.com/repos/wpbrasil/comunidade-tema-site/contributors' );
+	if ( ! is_wp_error( $response ) ) {
+		$github_data = json_decode( $response['body'], true );
+
+		$data = array(
+			'total' => count( $github_data ),
+			'contributors' => $github_data
+		);
+	}
+
+    // Update counter transient.
+    set_transient( $transient, $data, 60 * 60 * 24 ); // 24 hours.
+
+    return $data;
+}
