@@ -109,6 +109,11 @@ body {
 
 /* =Top Navigation
 -------------------------------------------------------------- */
+.navbar-nav > li li a {
+	&:hover {
+		background: #EAECDE
+	}
+}
 
 #top-navigation {
 	.container {
