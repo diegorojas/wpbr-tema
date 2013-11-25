@@ -245,8 +245,11 @@ module.exports = function( grunt ) {
 	// Optimize Images Task
 	grunt.registerTask( 'optimize', ['imagemin'] );
 
-	// Deploy Tasks
-	grunt.registerTask( 'ftp', ['ftp-deploy'] );
+	// Deploy Task
+	grunt.registerTask( 'deploy', [
+		'default',
+		'rsync'
+	] );
 
 	// Compress
 	grunt.registerTask( 'compress', [
