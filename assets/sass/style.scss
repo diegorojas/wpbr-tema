@@ -111,7 +111,7 @@ body {
 -------------------------------------------------------------- */
 .navbar-nav > li li a {
 	&:hover {
-		background: #EAECDE
+		background: $body-bg;
 	}
 }
 
