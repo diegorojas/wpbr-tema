@@ -1,7 +1,7 @@
 <div id="branding">
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-lg-5 col-md-12">
                 <?php if ( is_home() ) : ?>
                     <h1 class="site-title"><a href="<?php echo home_url(); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a></h1>
                 <?php else: ?>
@@ -9,7 +9,7 @@
                 <?php endif ?>
                 <div class="site-description"><?php echo cmm_wpbr_header_description() ?></div>
             </div>
-            <div id="header-buttons" class="col-md-7">
+            <div id="header-buttons" class="col-lg-offset-0 col-lg-7 col-md-offset-4 col-md-8">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <a href="http://br.wordpress.org/latest-pt_BR.zip" class="btn btn-primary clearfix">
