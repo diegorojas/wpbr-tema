@@ -91,6 +91,14 @@ body {
 .site-title {
 	margin-top: $line-height-computed;
 	margin-bottom: ($line-height-computed / 2);
+
+	img {
+		max-width: 100%;
+	}
+
+	@media (max-width: $screen-sm-min) {
+		margin: 0; 
+	}
 }
 
 .site-description {
@@ -107,6 +115,10 @@ body {
 -------------------------------------------------------------- */
 
 #top-navigation {
+	.container {
+		position: relative
+	}
+
 	.navbar-nav > li > a {
 		font-size: 16px;
 		font-weight: 700;
@@ -118,9 +130,20 @@ body {
 	.admin-bar & {
 		top: 28px;
 	}
+
+	@media (max-width: $screen-sm-min) {
+		.navbar-toggle {
+			margin: 13px 0;
+			float: left;
+		}
+	}
 }
 
 #top-navigation-icon {
+	position: absolute;
+	top: 0;
+	right: ($grid-gutter-width / 2);
+
 	background: url(../images/header-icon.png) no-repeat;
 	height: 36px;
 	margin: 11px 0 0;
@@ -157,6 +180,10 @@ body {
 #branding {
 	background: url(../images/header.jpg) center center no-repeat;
 	padding: 30px 0;
+
+	@media (max-width: $screen-sm-min) {
+		padding: 20px 0;
+	}
 }
 
 #header-buttons {
@@ -168,6 +195,10 @@ body {
 		text-align: left;
 	}
 
+	img {
+		max-width: 100%
+	}
+
 	.glyphicon {
 		float: left;
 		font-size: 45px;
@@ -176,6 +207,18 @@ body {
 
 	.text {
 		font-size: 20px;
+	}
+
+	@media (max-width: $screen-sm-min) {
+		.btn {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-top: 10px;
+
+			.glyphicon {
+				line-height: 57px;
+			}
+		}
 	}
 }
 
