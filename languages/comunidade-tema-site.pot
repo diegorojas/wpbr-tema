@@ -1,0 +1,498 @@
+# Copyright (C) 2010 Comunidade WordPress-BR
+# This file is distributed under the same license as the Comunidade WordPress-BR package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Comunidade WordPress-BR 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/comunidade-tema-site\n"
+"POT-Creation-Date: 2013-11-25 17:47:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:14
+msgid "This is embarrassing, no?"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"It seems we can not find what you were looking for. Maybe a search or the "
+"links below can help."
+msgstr ""
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr ""
+
+#: archive.php:27
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:29
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:31
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:33
+msgid "Blog Archives"
+msgstr ""
+
+#: audio.php:27 video.php:23
+msgid "URL:"
+msgstr ""
+
+#: audio.php:36 image.php:38 video.php:32
+msgid "Back to %s"
+msgstr ""
+
+#: audio.php:36 image.php:38 video.php:32
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: author.php:16
+msgid "Author Archives:"
+msgstr ""
+
+#: author.php:21
+msgid "About"
+msgstr ""
+
+#: branding.php:17
+msgid "Last Version of<br />WordPress pt_BR"
+msgstr ""
+
+#: branding.php:23
+msgid "WordPress map<br />in Brazil"
+msgstr ""
+
+#: branding.php:29
+msgid "WordPress.org<br />Brazilian Forum"
+msgstr ""
+
+#: branding.php:35
+msgid "Brazilian version<br />of the Codex"
+msgstr ""
+
+#: category.php:16
+msgid "Category Archives:"
+msgstr ""
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view all comments."
+msgstr ""
+
+#: comments.php:22
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:22
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:22
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:23
+msgid "to"
+msgstr ""
+
+#: comments.php:28 comments.php:37
+msgid "&larr; Old Comments"
+msgstr ""
+
+#: comments.php:29 comments.php:38
+msgid "New Comments &rarr;"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments closed."
+msgstr ""
+
+#: comments.php:54
+msgid "Comment"
+msgstr ""
+
+#: comments.php:56
+msgid "Name"
+msgstr ""
+
+#: comments.php:57
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:58
+msgid "Website"
+msgstr ""
+
+#: content.php:16
+msgid "By"
+msgstr ""
+
+#: content.php:17
+msgid "All posts by"
+msgstr ""
+
+#: content.php:22
+msgid "Permalink to"
+msgstr ""
+
+#: content.php:28 image.php:30 page-sidebar.php:22 page.php:23 single.php:19
+msgid "Pages:"
+msgstr ""
+
+#: content.php:31 single.php:23
+msgid "In"
+msgstr ""
+
+#: content.php:32 inc/comments-loop.php:22 single.php:24
+msgid "in"
+msgstr ""
+
+#: content.php:34
+msgid "Read more %s"
+msgstr ""
+
+#: content.php:34
+msgid "Read more &raquo;"
+msgstr ""
+
+#: core/classes/abstracts/abstract-front-end-form.php:234
+msgid "Submit"
+msgstr ""
+
+#: core/classes/abstracts/abstract-front-end-form.php:276
+msgid "Form submitted successfully!"
+msgstr ""
+
+#: core/classes/abstracts/abstract-front-end-form.php:507
+msgid "%s is required."
+msgstr ""
+
+#: core/classes/abstracts/abstract-front-end-form.php:513
+msgid "%s must be an email address valid."
+msgstr ""
+
+#: core/classes/class-bootstrap-nav.php:203
+msgid "Add a menu"
+msgstr ""
+
+#: core/classes/class-contact-form.php:170
+msgid "Message sent by the form %s in %s at %s"
+msgstr ""
+
+#: core/classes/class-metabox.php:78 core/classes/class-metabox.php:424
+#: core/classes/class-theme-options.php:89
+#: core/classes/class-theme-options.php:619
+msgid "Add images in gallery"
+msgstr ""
+
+#: core/classes/class-metabox.php:79 core/classes/class-theme-options.php:90
+msgid "Add in gallery"
+msgstr ""
+
+#: core/classes/class-metabox.php:80 core/classes/class-metabox.php:388
+#: core/classes/class-metabox.php:413 core/classes/class-theme-options.php:91
+#: core/classes/class-theme-options.php:573
+#: core/classes/class-theme-options.php:608
+msgid "Remove image"
+msgstr ""
+
+#: core/classes/class-metabox.php:81 core/classes/class-theme-options.php:92
+msgid "Choose a file"
+msgstr ""
+
+#: core/classes/class-metabox.php:82 core/classes/class-theme-options.php:93
+msgid "Add file"
+msgstr ""
+
+#: core/classes/class-metabox.php:366 core/classes/class-theme-options.php:540
+msgid "Select file"
+msgstr ""
+
+#: core/classes/class-metabox.php:388 core/classes/class-theme-options.php:573
+msgid "Select image"
+msgstr ""
+
+#: core/classes/class-post-type.php:73 core/classes/class-post-type.php:80
+#: core/classes/class-taxonomy.php:75 core/classes/class-taxonomy.php:84
+msgid "%ss"
+msgstr ""
+
+#: core/classes/class-post-type.php:74 core/classes/class-taxonomy.php:76
+msgid "%s"
+msgstr ""
+
+#: core/classes/class-post-type.php:75 core/classes/class-taxonomy.php:78
+msgid "View %s"
+msgstr ""
+
+#: core/classes/class-post-type.php:76 core/classes/class-taxonomy.php:79
+msgid "Edit %s"
+msgstr ""
+
+#: core/classes/class-post-type.php:77 core/classes/class-taxonomy.php:80
+msgid "Search %s"
+msgstr ""
+
+#: core/classes/class-post-type.php:78 core/classes/class-taxonomy.php:81
+msgid "Update %s"
+msgstr ""
+
+#: core/classes/class-post-type.php:79 core/classes/class-taxonomy.php:82
+#: core/classes/class-taxonomy.php:83
+msgid "Parent %s:"
+msgstr ""
+
+#: core/classes/class-post-type.php:81
+msgid "Add New"
+msgstr ""
+
+#: core/classes/class-post-type.php:82 core/classes/class-taxonomy.php:85
+msgid "Add New %s"
+msgstr ""
+
+#: core/classes/class-post-type.php:83 core/classes/class-taxonomy.php:86
+msgid "New %s"
+msgstr ""
+
+#: core/classes/class-post-type.php:84 core/classes/class-taxonomy.php:87
+msgid "All %ss"
+msgstr ""
+
+#: core/classes/class-post-type.php:85
+msgid "No %s found"
+msgstr ""
+
+#: core/classes/class-post-type.php:86
+msgid "No %s found in Trash"
+msgstr ""
+
+#: core/classes/class-taxonomy.php:77
+msgid "Add or Remove %ss"
+msgstr ""
+
+#: core/classes/class-taxonomy.php:88
+msgid "Separate %ss with comma"
+msgstr ""
+
+#: core/classes/class-taxonomy.php:89
+msgid "Choose from %ss most used"
+msgstr ""
+
+#: core/helpers.php:54
+msgid "&laquo; Previous"
+msgstr ""
+
+#: core/helpers.php:55
+msgid "Next &raquo;"
+msgstr ""
+
+#: core/helpers.php:94
+msgid "Related Posts"
+msgstr ""
+
+#: core/helpers.php:217
+msgid "Home"
+msgstr ""
+
+#: core/helpers.php:309
+msgid "%sCategory: %s%s"
+msgstr ""
+
+#: core/helpers.php:313
+msgid "%sTag: %s%s"
+msgstr ""
+
+#: core/helpers.php:321
+msgid "%sSearch result for: &quot;%s&quot;%s"
+msgstr ""
+
+#: core/helpers.php:328
+msgid "Posted by"
+msgstr ""
+
+#: core/helpers.php:367
+msgid "404 Error"
+msgstr ""
+
+#: core/helpers.php:374 core/helpers.php:376 inc/optimize.php:27
+msgid "Page %s"
+msgstr ""
+
+#: footer.php:20
+msgid "Powered by %s"
+msgstr ""
+
+#: footer.php:20
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:24
+msgid "Some rights reserved"
+msgstr ""
+
+#: footer.php:33
+msgid "Community"
+msgstr ""
+
+#: footer.php:35
+msgid "WordPress-BR"
+msgstr ""
+
+#: functions.php:53
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:55
+msgid "Category Menu"
+msgstr ""
+
+#: functions.php:93
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:95
+msgid "Site Main Sidebar"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:35 header.php:72
+msgid "Toggle navigation"
+msgstr ""
+
+#: image.php:21
+msgid "Image total size: %s pixels"
+msgstr ""
+
+#: image.php:21
+msgid "Full image link"
+msgstr ""
+
+#: image.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:32
+msgid "&larr; Previous image"
+msgstr ""
+
+#: image.php:33
+msgid "Next image &rarr;"
+msgstr ""
+
+#: inc/comments-loop.php:13
+msgid "Pingback:"
+msgstr ""
+
+#: inc/comments-loop.php:13 inc/comments-loop.php:23
+msgid "Edit"
+msgstr ""
+
+#: inc/comments-loop.php:22
+msgid "at"
+msgstr ""
+
+#: inc/comments-loop.php:22
+msgid "said:"
+msgstr ""
+
+#: inc/comments-loop.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comments-loop.php:31
+msgid "Respond"
+msgstr ""
+
+#: inc/theme-options.php:11
+msgid "Site options"
+msgstr ""
+
+#: inc/theme-options.php:19
+msgid "Homepage"
+msgstr ""
+
+#: inc/theme-options.php:28
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options.php:32
+msgid "Welcome message"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:14
+msgid ""
+"No results were found for the requested archive. Maybe a search can help you "
+"to find any related post."
+msgstr ""
+
+#: page-contributors.php:29
+msgid "%d commits"
+msgstr ""
+
+#: search.php:14
+msgid "Search results for:"
+msgstr ""
+
+#: searchform.php:11 searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: tag.php:18
+msgid "Tag Archives:"
+msgstr ""
+
+#: templates/news.php:5
+msgid "WordPress News"
+msgstr ""
+
+#: templates/news.php:19 templates/news.php:21
+msgid "Publish here too!"
+msgstr ""
+
+#: templates/news.php:21
+msgid "Sign up!"
+msgstr ""
+
+#. #-#-#-#-#  comunidade-tema-site.pot (Comunidade WordPress-BR 1.0.0)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#. #-#-#-#-#  comunidade-tema-site.pot (Comunidade WordPress-BR 1.0.0)  #-#-#-#-#
+#. Author of the plugin/theme
+msgid "Comunidade WordPress-BR"
+msgstr ""
+
+#. #-#-#-#-#  comunidade-tema-site.pot (Comunidade WordPress-BR 1.0.0)  #-#-#-#-#
+#. Theme URI of the plugin/theme
+#. #-#-#-#-#  comunidade-tema-site.pot (Comunidade WordPress-BR 1.0.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wp-brasil.org/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Tema da Comunidade WordPress-BR"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid ""
+"light, blue, white, one-column, two-columns, right-sidebar, flexible-width, "
+"custom-menu, editor-style, featured-images, post-formats, theme-options, "
+"translation-ready"
+msgstr ""

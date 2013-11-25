@@ -26,7 +26,7 @@ get_header();
 								<a href="<?php echo esc_url( $contributor['html_url'] ); ?>" class="btn btn-primary clearfix">
 									<img src="<?php echo esc_url( $contributor['avatar_url'] ); ?>" alt="<?php echo esc_attr( $contributor['login'] ); ?>" class="pull-left" />
 									<strong><?php echo esc_attr( $contributor['login'] ); ?></strong>
-									<small><?php echo esc_attr( $contributor['contributions'] ); ?> <?php _e( 'commits', 'comunidade-wordpress-br' ) ?></small>
+									<small><?php printf( __( '%d commits', 'comunidade-wordpress-br'), esc_attr( $contributor['contributions'] ) ); ?></small>
 								</a>
 							</div>
 						<?php endforeach; ?>
