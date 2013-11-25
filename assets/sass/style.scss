@@ -109,6 +109,11 @@ body {
 
 /* =Top Navigation
 -------------------------------------------------------------- */
+.navbar-nav > li li a {
+	&:hover {
+		background: $body-bg;
+	}
+}
 
 #top-navigation {
 	.container {
