@@ -7,6 +7,9 @@
  * @package Comunidade_WordPress_BR
  * @since 1.0.0
  */
+
+$show_map = ( $mapurl = get_map_url() ) && is_home() && '/wp-signup.php' != $_SERVER['REQUEST_URI'];
+
 ?><!DOCTYPE html>
 <!--[if IE 7]><html class="no-js ie7 lt-ie9 lt-ie8" <?php language_attributes(); ?>><![endif]-->
 <!--[if IE 8]><html class="no-js ie8 lt-ie9" <?php language_attributes(); ?>><![endif]-->
@@ -56,7 +59,7 @@
 			</div>
 		</nav><!-- #top-navigation -->
 
-        <?php if ( ( $mapurl = get_map_url() ) && is_home() ) : ?>
+        <?php if ( $show_map ) : ?>
 		    <div id="wp-brasil-map">
 			    <iframe src="<?php echo $mapurl; ?>/?embed" frameborder="0"></iframe>
 		    </div>
@@ -91,7 +94,7 @@
 			</div>
 		</nav><!-- #main-navigation -->
 
-		<?php if ( $mapurl && is_home() ) : ?>
+		<?php if ( $show_map ) : ?>
 			<?php get_template_part( 'branding' ); ?>
 		<?php endif; ?>
 
