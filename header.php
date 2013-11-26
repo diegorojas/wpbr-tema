@@ -54,8 +54,9 @@ $show_map = ( $mapurl = get_map_url() ) && is_home() && '/wp-signup.php' != $_SE
 							)
 						);
 					?>
-					<a id="top-navigation-icon" class="navbar-text navbar-right hidden-xs" href="http://br.wordpress.org/"></a>
 				</div><!-- /.navbar-collapse -->
+				<a id="top-navigation-icon" class="navbar-text navbar-right" href="http://br.wordpress.org/"></a>
+
 			</div>
 		</nav><!-- #top-navigation -->
 

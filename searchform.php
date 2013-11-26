@@ -9,7 +9,9 @@
 <form method="get" id="searchform" class="form-inline" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 	<div class="form-group">
 		<label for="s" class="sr-only"><?php _e( 'Search', 'comunidade-wordpress-br' ); ?></label>
-		<input type="text" class="form-control" name="s" id="s" />
+		<input type="text" class="form-control" name="s" id="s" placeholder="<?php _e( 'Search', 'comunidade-wordpress-br' ); ?>" />
 	</div>
-	<input type="submit" class="btn btn-default" value="<?php esc_attr_e( 'Search', 'comunidade-wordpress-br' ); ?>" />
+	<button type="submit" class="btn btn-primary searchsubmit">
+		<i class="glyphicon glyphicon-search"></i>
+	</button>
 </form>

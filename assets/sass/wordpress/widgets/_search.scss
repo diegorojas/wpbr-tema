@@ -1,17 +1,25 @@
 /* Search Widget */
 
-.widget_search form {
+.widget.widget_search {
+	background: none;
 
-}
+	form {
+		position: relative;
+	}
 
-.widget_search #s {
+	.form-group {
+		display: block;
+		margin-right: 45px;
+		padding: 0;
+		width: auto;
+	}
 
-}
+	.searchsubmit {
+		position: absolute;
+		top: 0;
+		right: 0;
 
-.widget_search #searchsubmit {
-
-}
-
-.widget_search #searchsubmit:active {
-
+		padding-top: 5px;
+		padding-bottom: 6px;
+	}
 }

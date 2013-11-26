@@ -26,7 +26,7 @@
 					</div><!-- . col-sm-6 -->
 				</div>
 			</div><!-- .footer-area -->
-			<div class="col-md-4 hidden-xs logo-area">
+			<div class="col-md-4 logo-area">
 				<img class="logo-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-footer.png" alt="<?php bloginfo('name' ); ?>">
 				<div class="logo-title">
 					<span>
