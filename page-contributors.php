@@ -16,7 +16,7 @@ get_header();
 		<?php while ( have_posts() ) : the_post(); ?>
 			<article <?php post_class(); ?>>
 				<header class="entry-header">
-					<h1 class="entry-title"><?php the_title(); ?> (<?php echo esc_attr( $contributors['total'] ); ?>)</h1>
+					<h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?> (<?php echo esc_attr( $contributors['total'] ); ?>)</a></h1>
 				</header><!-- .entry-header -->
 				<div class="entry-content">
 					<?php the_content(); ?>
