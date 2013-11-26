@@ -513,6 +513,17 @@ body {
 	.reply {
 		margin-bottom: 5px;
 	}
+
+	.edit-link {
+		a {
+			color: $white;
+			font-size: 11px;
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
 }
 
 .bypostauthor {
