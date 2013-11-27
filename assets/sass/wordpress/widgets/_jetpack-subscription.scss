@@ -1,0 +1,11 @@
+/**
+ * JetPack Subscription Widget.
+ */
+
+.jetpack_subscription_widget {
+
+    .success {
+        @extend .alert;
+        @extend .alert-success;
+    }
+}

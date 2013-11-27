@@ -381,6 +381,24 @@ body {
 		.entry-meta {
 			bottom: 50%;
 			margin-bottom: -29px;
+
+			@media (max-width: $screen-xs-max) {
+				@include border-radius(0);
+				position: static;
+				bottom: 0;
+				width: 100%;
+				margin-bottom: 0;
+			}
+		}
+		
+		@media (max-width: $screen-xs-max) {
+			height: 51px;
+		}
+	}
+
+	.featured-default {
+		@media (max-width: $screen-xs-max) {
+			display:none;
 		}
 	}
 
@@ -512,6 +530,17 @@ body {
 
 	.reply {
 		margin-bottom: 5px;
+	}
+
+	.edit-link {
+		a {
+			color: $white;
+			font-size: 11px;
+
+			&:hover {
+				color: $white;
+			}
+		}
 	}
 }
 

@@ -190,7 +190,7 @@ function cmm_wpbr_content_thumbnail() {
 
 		return apply_filters( 'cmm_wpbr_thumbnail_html', $html );
 	} else {
-		$html = '<img src="' . get_template_directory_uri() . '/assets/images/featured-image-default.png" alt="' . esc_attr( get_the_title() ) . '" />';
+		$html = '<img class="featured-default" src="' . get_template_directory_uri() . '/assets/images/featured-image-default.png" alt="' . esc_attr( get_the_title() ) . '" />';
 
 		return $html;
 	}
