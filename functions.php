@@ -128,6 +128,11 @@ require_once get_template_directory() . '/core/helpers.php';
 require_once get_template_directory() . '/inc/optimize.php';
 
 /**
+ * WP customize functions.
+ */
+require_once get_template_directory() . '/inc/customize.php';
+
+/**
  * Load site scripts.
  */
 function cmm_wpbr_enqueue_scripts() {
