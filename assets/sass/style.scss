@@ -700,14 +700,16 @@ body {
 -------------------------------------------------------------- */
 // Reseting Sabre CSS of the fields
 // based on css/sass/partials/_bootstrap.scss
-#user_pwd1,
-#user_pwd2,
-#captcha,
-#math,
-#letter,
-#invite_code {
-	@extend .form-control;
-	display: inline;
+.blog {
+	#user_pwd1,
+	#user_pwd2,
+	#captcha,
+	#math,
+	#letter,
+	#invite_code {
+		@extend .form-control;
+		display: inline;
+	}
 }
 
 .mu_register {
