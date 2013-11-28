@@ -24,6 +24,9 @@ Session.vim
 *.tmproject
 tmtags
 nbproject/*
+.settings/
+.buildpath
+.project
 
 # Project
 src/.sass-cache/*
