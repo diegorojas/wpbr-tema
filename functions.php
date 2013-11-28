@@ -278,3 +278,31 @@ function cmm_wpbr_github_contributors() {
 
     return $data;
 }
+
+/**
+ * Colors scheme of the theme. Can be add new color schemes utilizando o hook
+ * cmm_wpbr_color_scheme.
+ * 
+ * @return array
+ */
+function cmm_wpbr_color_schemes() {
+	return apply_filters( 'cmm_wpbr_color_scheme' , array(
+		'Default' => array( '#EAECDE', '#3185AF', '#36637A', '#464646', '#656A6E' ),
+		'Gray' => array( '#DDD', '#333', '#000', '#AAA', '#666' )
+	) );
+}
+
+/**
+ * Get the colors of the scheme.
+ * 
+ * @param string $scheme
+ * @return array
+ */
+function cmm_wpbr_get_color_scheme( $scheme ) {
+	$schemes = cmm_wpbr_color_schemes();
+	
+	if( key_exists( $scheme, $schemes ) ) {
+		return $schemes[$scheme];
+	}
+	return $schemes['Default'];
+}

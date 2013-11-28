@@ -696,6 +696,43 @@ body {
 	}
 }
 
+/* =Default Color Scheme
+-------------------------------------------------------------- */
+
+$color-1: #EAECDE;
+$color-2: #3185AF;
+$color-3: #36637A;
+$color-4: #464646;
+$color-5: #656A6E;
+
+body,
+#top-navigation .navbar-top-navigation li li.active > a,
+#top-navigation .navbar-top-navigation li li > a:hover,
+#main-navigation .navbar-main-navigation li li.active > a,
+#main-navigation .navbar-main-navigation li li > a:hover { 
+	background-color: $color-1;
+}
+
+#top-navigation,
+#footer { 
+	background-color: $color-2;
+}
+
+#top-navigation .navbar-top-navigation li.active > a,
+#top-navigation .navbar-top-navigation li > a:hover {
+	background-color: $color-3;
+}
+
+#main-navigation {
+	background-color: $color-4;
+}
+
+#main-navigation .navbar-main-navigation li.active > a,
+#main-navigation .navbar-main-navigation li > a:hover {
+	background-color: $color-5;
+}
+
+
 /* =Responsive Styles
 -------------------------------------------------------------- */
 
