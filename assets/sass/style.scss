@@ -390,7 +390,7 @@ body {
 				margin-bottom: 0;
 			}
 		}
-		
+
 		@media (max-width: $screen-xs-max) {
 			height: 51px;
 		}
@@ -694,6 +694,78 @@ body {
 	#searchform {
 		margin-bottom: $text-margin-bottom;
 	}
+}
+
+/* =Signup page (/wp-signup.php)
+-------------------------------------------------------------- */
+// Reseting Sabre CSS of the fields
+// based on css/sass/partials/_bootstrap.scss
+#user_pwd1,
+#user_pwd2,
+#captcha,
+#math,
+#letter,
+#invite_code {
+	@extend .form-control;
+	display: inline;
+}
+
+.mu_register {
+	width: 90%;
+	margin:0 auto;
+
+	form {
+		margin-top: 2em;
+	}
+
+	.error {
+		font-weight:700;
+		padding:10px;
+		color:#333333;
+		background:#FFEBE8;
+		border:1px solid #CC0000;
+	}
+
+	input[type="submit"],
+	#blog_title,
+	#user_email,
+	#blogname,
+	#user_name,
+	// used by Sabre plugin
+	#user_pwd1,
+	#user_pwd2,
+	#captcha,
+	#math,
+	#letter,
+	#invite_code {
+		width:100%;
+		font-size: 24px;
+		margin:5px 0;
+	}
+
+	.suffix_address {
+		font-size: 18px;
+		display:inline;
+	}
+
+	label {
+		font-weight:700;
+		font-size:15px;
+		display:block;
+		margin:10px 0;
+		.checkbox {
+			display: inline;
+		}
+	}
+
+	.mu_alert {
+		font-weight:700;
+		padding:10px;
+		color:#333333;
+		background:#ffffe0;
+		border:1px solid #e6db55;
+	}
+
 }
 
 /* =Responsive Styles
