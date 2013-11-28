@@ -278,3 +278,8 @@ function cmm_wpbr_github_contributors() {
 
     return $data;
 }
+
+/**
+ * Remove the WordPress stylesheet from the header, it's already on the .scss file
+ */
+remove_action( 'wp_head', 'wpmu_signup_stylesheet' );
