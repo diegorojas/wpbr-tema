@@ -62,7 +62,7 @@ $show_map = ( $mapurl = get_map_url() ) && is_home() && '/wp-signup.php' != $_SE
 
         <?php if ( $show_map ) : ?>
 		    <div id="wp-brasil-map">
-			    <iframe src="<?php echo $mapurl; ?>/?embed" frameborder="0"></iframe>
+			    <iframe src="<?php echo $mapurl; ?>/?embed=1" frameborder="0"></iframe>
 		    </div>
 		<?php else : ?>
 			<?php get_template_part( 'branding' ); ?>
