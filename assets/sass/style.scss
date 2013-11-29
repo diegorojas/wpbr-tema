@@ -188,12 +188,14 @@ body {
 }
 
 #header-buttons {
-	a {
+	.btn {
 		color: #fff;
 		display: block;
 		margin-top: 30px;
 		padding: 25px 40px;
 		text-align: left;
+		white-space: normal;
+
 	}
 
 	img {
@@ -207,7 +209,7 @@ body {
 	}
 
 	.text {
-		font-size: 20px;
+		font-size: 19px;
 	}
 
 	@media (max-width: $screen-sm-min) {
