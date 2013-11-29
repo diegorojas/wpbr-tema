@@ -1,19 +1,37 @@
-# Translation of Tema site WPBR in Portuguese (Brazil)
-# This file is distributed under the same license as the Tema site WPBR package.
+# Translation of WPBR Tema in Portuguese (Brazil)
+# This file is distributed under the same license as the WPBR Tema package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-11-25 16:02-0300\n"
+"PO-Revision-Date: 2013-11-29 10:59-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Comunidade WordPress-BR v1.0.0\n"
+"Project-Id-Version: WPBR Tema\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Eduardo Zulian <eduardozulian@gmail.com>\n"
-"Language-Team: Comunidade WordPress-BR\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: BRAZIL\n"
+"Language-Team: \n"
+
+#: branding.php:17
+msgid "Latest version of WordPress pt_BR"
+msgstr "Última versão do WordPress pt_BR"
+
+#: branding.php:23
+msgid "WordPress map in Brazil"
+msgstr "Mapa do WordPress no Brasil"
+
+#: branding.php:29
+msgid "WordPress.org Brazilian Forum"
+msgstr "Fórum Brasileiro no WordPress.org"
+
+#: branding.php:35
+msgid "Brazilian version of the Codex"
+msgstr "Versão Brasileira do Codex"
+
+#: inc/customize.php:21
+msgid "Color Scheme"
+msgstr "Paleta de cores"
 
 #: 404.php:14
 msgid "This is embarrassing, no?"
@@ -67,22 +85,6 @@ msgstr "Arquivo do Autor:"
 #: author.php:21
 msgid "About"
 msgstr "Sobre"
-
-#: branding.php:17
-msgid "Last Version of<br />WordPress pt_BR"
-msgstr "Última Versão do<br />WordPress pt_BR"
-
-#: branding.php:23
-msgid "WordPress map<br />in Brazil"
-msgstr "Mapa do WordPress<br />no Brasil"
-
-#: branding.php:29
-msgid "WordPress.org<br />Brazilian Forum"
-msgstr "Fórum Brasileiro<br />no WordPress.org"
-
-#: branding.php:35
-msgid "Brazilian version<br />of the Codex"
-msgstr "Versão Brasileira<br />do Codex"
 
 #: category.php:16
 msgid "Category Archives:"
@@ -193,7 +195,7 @@ msgstr "%s é um campo obrigatório."
 msgid "%s must be an email address valid."
 msgstr "%s precisa ser um endereço de email válido"
 
-#: core/classes/class-bootstrap-nav.php:203
+#: core/classes/class-bootstrap-nav.php:204
 msgid "Add a menu"
 msgstr "Adicionar um menu"
 
@@ -401,12 +403,12 @@ msgstr "Sidebar Principal"
 msgid "Site Main Sidebar"
 msgstr "Sidebar principal do site"
 
-#: header.php:32
+#: header.php:35
 msgid "Skip to content"
 msgstr "Pular para o conteúdo"
 
-#: header.php:35
-#: header.php:72
+#: header.php:38
+#: header.php:75
 msgid "Toggle navigation"
 msgstr "Alternar navegação"
 
