@@ -22,6 +22,39 @@ function cmm_wpbr_customize_register( $wp_customize ) {
 		'section' => 'colors',
 		'settings' => 'color_scheme',
 	) ) );
+
+	$wp_customize->add_setting( 'title_color', array(
+		'default' => '#2E6EA4',
+		'capability' => 'edit_theme_options',
+		'transport' => 'postMessage'
+	) );
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'title_color', array(
+		'label' => __( 'Title Color', 'comunidade-wordpress-br' ),
+		'section' => 'colors',
+		'settings' => 'title_color',
+	) ) );
+
+	$wp_customize->add_setting( 'text_color', array(
+		'default' => '#000',
+		'capability' => 'edit_theme_options',
+		'transport' => 'postMessage'
+	) );
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'text_color', array(
+		'label' => __( 'Text Color', 'comunidade-wordpress-br' ),
+		'section' => 'colors',
+		'settings' => 'text_color',
+	) ) );
+
+	$wp_customize->add_setting( 'link_color', array(
+		'default' => '#2E6EA4',
+		'capability' => 'edit_theme_options',
+		'transport' => 'postMessage'
+	) );
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
+		'label' => __( 'Link Color', 'comunidade-wordpress-br' ),
+		'section' => 'colors',
+		'settings' => 'link_color',
+	) ) );
 }
 add_action( 'customize_register', 'cmm_wpbr_customize_register' );
 
@@ -49,7 +82,8 @@ function cmm_wpbr_customize_css() {
 			}
 			
 			#top-navigation .navbar-top-navigation li.active > a,
-			#top-navigation .navbar-top-navigation li > a:hover {
+			#top-navigation .navbar-top-navigation li > a:hover,
+			#top-navigation .navbar-top-navigation .open > a {
 				background-color: <?php echo $colors[2] ?>;
 			}
 			
@@ -58,10 +92,29 @@ function cmm_wpbr_customize_css() {
 			}
 			
 			#main-navigation .navbar-main-navigation li.active > a,
-			#main-navigation .navbar-main-navigation li > a:hover {
+			#main-navigation .navbar-main-navigation li > a:hover,
+			#main-navigation .navbar-main-navigation .open > a  {
 				background-color: <?php echo $colors[4] ?>;
 			}
             <?php endif; ?>
+            
+    		<?php if( get_theme_mod( 'title_color' ) ) : ?>
+    		.entry-title a {
+    			color: <?php echo get_theme_mod( 'title_color' ) ?>
+    		}
+    		<?php endif; ?>
+            
+    		<?php if( get_theme_mod( 'text_color' ) ) : ?>
+    		.entry-content {
+    			color: <?php echo get_theme_mod( 'text_color' ) ?>
+    		}
+    		<?php endif; ?>
+            
+    		<?php if( get_theme_mod( 'link_color' ) ) : ?>
+    		.entry-content a {
+    			color: <?php echo get_theme_mod( 'link_color' ) ?>
+    		}
+    		<?php endif; ?>
          </style>
     <?php
 }
