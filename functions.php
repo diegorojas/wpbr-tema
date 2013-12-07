@@ -263,7 +263,7 @@ function cmm_wpbr_github_contributors() {
     }
 
     // Get GitHub data.
-    $response = wp_remote_get( 'https://api.github.com/repos/wpbrasil/comunidade-tema-site/contributors' );
+    $response = wp_remote_get( 'https://api.github.com/repos/wpbrasil/wpbr-tema/contributors' );
 	if ( ! is_wp_error( $response ) ) {
 		$github_data = json_decode( $response['body'], true );
 
@@ -282,7 +282,7 @@ function cmm_wpbr_github_contributors() {
 /**
  * Colors scheme of the theme. Can be add new color schemes utilizando o hook
  * cmm_wpbr_color_scheme.
- * 
+ *
  * @return array
  */
 function cmm_wpbr_color_schemes() {
@@ -294,13 +294,13 @@ function cmm_wpbr_color_schemes() {
 
 /**
  * Get the colors of the scheme.
- * 
+ *
  * @param string $scheme
  * @return array
  */
 function cmm_wpbr_get_color_scheme( $scheme ) {
 	$schemes = cmm_wpbr_color_schemes();
-	
+
 	if( key_exists( $scheme, $schemes ) ) {
 		return $schemes[$scheme];
 	}
