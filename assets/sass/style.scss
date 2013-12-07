@@ -171,14 +171,38 @@ html {
 	margin: 0;
 	padding: 20px;
 	text-transform: uppercase;
-
-	a {
-
-		&:hover {
-
-		}
-	}
 }
+
+.entry-title {
+	color: $brand-primary;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.author-list.biography {
+	display:none;
+	}
+
+.author-info {
+    background: none repeat scroll 0 0 #DDDDDD;
+    margin-bottom: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.author-info h2 {
+	margin-top: 0px;
+}
+
+span.author-avatar {
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
 
 .page-header {
 	margin-bottom: 1em;
@@ -371,7 +395,7 @@ html {
 
 .widget_search {
  border-radius: 12px;
- padding: top: 10px;
+ padding-top: 10px;
 }
 
 /* .widgettitle is a WordPress default */
