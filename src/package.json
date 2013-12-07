@@ -3,7 +3,7 @@
   "description": "Tema da Comunidade WordPress-BR",
   "version": "1.0.0",
   "title": "Comunidade WordPress-BR",
-  "homepage": "http://wp-brasil.org/",
+  "homepage": "/wpbr-site/",
   "main": "Gruntfile.js",
   "devDependencies": {
     "grunt": "~0.4.1",

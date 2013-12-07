@@ -311,3 +311,6 @@ function cmm_wpbr_get_color_scheme( $scheme ) {
  * Remove the WordPress stylesheet from the header, it's already on the .scss file
  */
 remove_action( 'wp_head', 'wpmu_signup_stylesheet' );
+
+define( 'ODIN_GRUNT_SUPPORT', true );
+

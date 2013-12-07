@@ -34,4 +34,6 @@ src/node_modules/*
 src/.ftppass
 src/tmp/*
 assets/js/main.min.js
-assets/css/
+src/package.json
+rails.xml
+
