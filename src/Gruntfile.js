@@ -114,7 +114,7 @@ module.exports = function( grunt ) {
 					'.git/',
 					'.gitignore',
 					'.jshintrc',
-					'sass/',
+					'assets/sass/',
 					'src/',
 					'README.md'
 				],
@@ -125,38 +125,8 @@ module.exports = function( grunt ) {
 				options: {
 					src: '../',
 					dest: '~/wp-brasil.org/wp-content/themes/tema',
-					host: 'wordpressbr@wp-brasil.org'
+					host: 'wp-brasil.org'
 				}
-			}
-		},
-
-		// ftp deploy
-		// ref: https://npmjs.org/package/grunt-ftp-deploy
-		'ftp-deploy': {
-			build: {
-				auth: {
-					host: 'ftp.SEU-SITE.com',
-					port: 21,
-					authKey: 'key_for_deploy'
-				},
-				src: '../',
-				dest: '/PATH/wp-content/themes/odin',
-				exclusions: [
-					'../**.DS_Store',
-					'../**Thumbs.db',
-					'../.git/*',
-					'../.gitignore',
-					'../assets/sass/*',
-					'../src/*',
-					'../src/.sass-cache/*',
-					'../src/node_modules/*',
-					'../src/.ftppass',
-					'../src/Gruntfile.js',
-					'../src/config.rb',
-					'../src/package.json',
-					'../README.md',
-					'../**/README.md'
-				]
 			}
 		},
 
