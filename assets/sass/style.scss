@@ -823,7 +823,8 @@ $color-1: #EAECDE;
 $color-2: #3185AF;
 $color-3: #36637A;
 $color-4: #464646;
-$color-5: #656A6E;
+$color-5: #656565;
+$color-6: #333333;
 
 body,
 #top-navigation .navbar-top-navigation li li.active > a,
@@ -849,7 +850,7 @@ body,
 
 #main-navigation .navbar-main-navigation li.active > a,
 #main-navigation .navbar-main-navigation li > a:hover {
-	background-color: $color-5;
+	background-color: $color-6;
 }
 
 /* =Responsive Styles
